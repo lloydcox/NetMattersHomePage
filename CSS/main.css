@@ -1,0 +1,42 @@
+/* line 4, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_basestyles.scss */
+.page-container {
+  font-family: 'Poppins', sans-serif;
+  width: 100vh;
+  align-content: center;
+  margin: 0;
+}
+
+/* line 11, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_basestyles.scss */
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 18, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_basestyles.scss */
+.chat-button {
+  width: 50px;
+  height: 50px;
+}
+
+/* line 23, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_basestyles.scss */
+.logo-background {
+  object-fit: contain;
+  height: 500px;
+  width: auto;
+}
+
+/* line 29, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_basestyles.scss */
+button {
+  background: none;
+  border: none;
+}
+
+/* line 34, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_basestyles.scss */
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,37 @@
+// BASE STYLES
+
+
+.page-container {
+    font-family: 'Poppins', sans-serif;
+    width: 100vh;
+    align-content: center;
+    margin: 0;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.chat-button {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-background {
+    object-fit: contain;
+    height: 500px;
+    width: auto;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}

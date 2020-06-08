@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../SCSS/main.scss",
+		"../SCSS/partials/_mypartials.scss",
+		"../SCSS/partials/_attributes.scss",
+		"../SCSS/partials/_basestyles.scss"
+	],
+	"sourcesContent": [
+		"\r\n\r\n\r\n\r\n@import 'partials/_mypartials', 'partials/_attributes', 'partials/_basestyles' \r\n\r\n",
+		"",
+		"\r\n\r\n\r\n",
+		"// BASE STYLES\r\n\r\n\r\n.page-container {\r\n    font-family: 'Poppins', sans-serif;\r\n    width: 100vh;\r\n    align-content: center;\r\n    margin: 0;\r\n}\r\n\r\n.main-header {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: space-between;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.chat-button {\r\n    width: 50px;\r\n    height: 50px;\r\n}\r\n\r\n.logo-background {\r\n    object-fit: contain;\r\n    height: 500px;\r\n    width: auto;\r\n}\r\n\r\nbutton {\r\n    background: none;\r\n    border: none;\r\n}\r\n\r\nfooter {\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AGGA,AAAA,eAAe,CAAC;EACZ,WAAW,EAAE,qBAAqB;EAClC,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,MAAM;EACrB,MAAM,EAAE,CAAC;CACZ;;;AAED,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;EAC9B,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,gBAAgB,CAAC;EACb,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACd;;;AAED,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACtB"
+}
