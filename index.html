@@ -5,50 +5,236 @@
     <title>NetMatters</title>
     <meta name="NetMatters" content="NetMatters Home Page">
     <link href="css/main.css" rel="stylesheet" type="text/css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">       
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a1cee84389.js" crossorigin="anonymous"></script>
+    
+         
         
     </head>
-    <body class="page-container">
+    <body>
+     <div class="page-container">
 
         <!-- Main Header -->
+            <header class="main-header" id="header">
+                
+                    <div class="row"> 
+                        <div class="row-menu">
+                        <img class="chat_button_img" src="../NetMattersHomePage/Imgs/chat-bubble-icon.png"> 
+                            <img class="logo_img" alt="logo" src="../NetMattersHomePage/Imgs/nm-logo.png">
+                                <button class="sbutton" type="button">Support</button>
+                                    <button class="cbutton" type="button">Contact</button>
+                                        <i class="fas fa-phone-volume fas fa-3x"></i>
+                                        <i class="fas fa-bars fas fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="search-outer">
+                        <div class="searchContainer">
+                                <input class="searchBox" type="search" name="search" placeholder="Search...">
+                                <i class="fa fa-search searchIcon fas fa-3x" type="submit" value="Search"></i>
+                        </div>                                                    
+                    </div>
+                
+           </header>
+            
+            <!-- Main Nav -->
+            <div class="main-nav-outer">
+                <div class="main-nav">
+                    <ul class="ul-container">                    
+                        <li id="web-dev" class="men-but">
+                            <img src="Imgs/icons8-source-code-26.png">
+                            <a id="services" href="#">Web Design</a>
+                            <ul id="services-list" class="menu">
+                                
+                                <li>Stylish Websites</li>
+                                <li>Ecommerce Stores</li>
+                                <li>Branding</li>
+                                <li>Mobile Apps</li>
+                                <li>Web Hosting</li>
+                                <li>Pay Monthly Websites</li>
+                                
+                            </ul>
+                        </li>
+                        
+                        <li id="it-sup" class="men-but">
+                            <a id="services" href="#">IT Support
+                            <ul id="services-list">
+                                <li>Managed Support</li>
+                                <li>Business IT Support</li>
+                                <li>Office 365</li>
+                                <li>Consultancy</li>
+                                <li>Cloud Provider</li>
+                                <li>Data Back up</li>
+                            </ul>
+                            </a>
+                        </li>   
+
+                        <li id="tel-ser" class="men-but">
+                            <a id="services" href="#">Telecom Services</a>
+                            <ul id="services-list">
+                                <li>Gigabit Voucher</li>
+                                <li>Hosted VOIP</li>
+                                <li>Business VOIP</li>
+                                <li>Business Broadband</li>
+                                <li>Leased Lines</li>
+                                <li>3CX Systems</li>
+                            </ul>
+                        </li>
+                        <li id="bes-sof" class="men-but">
+                            <a id="services" href="#">Bespoke Software</a>
+                            <ul id="services-list">
+                                <li>Workflow Solutions</li>
+                                <li>Automation</li>
+                                <li>Systemm Integration</li>
+                                <li>Database Management</li>
+                                <li>Sharepoint</li>
+                                <li>ERP</li>
+                            </ul>
+                        </li>
+
+                        <li id="dig-mar" class="men-but">
+                            <a id="services" href="#">Digital Marketing</a>
+                            <ul id="services-list">
+                                <li>SEO</li>
+                                <li>PPC</li>
+                                <li>CRO</li>
+                                <li>Email</li>
+                                <li>Social</li>
+                                <li>Content</li>
+                            </ul>
+                        </li>
+
+                        <li id="cyb-sec" class="men-but">
+                            <a id="services" href="#">Cyber Security</a>
+                            <ul id="services-list">
+                                <li>Assesment</li>
+                                <li>Management</li>
+                                <li>Penetrating Testing</li>
+                                <li>Cyber Essentials</li>
+                                <li>PCI/DSS</li>
+                                <li>Hacker Prevention</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         
-            <header class="main-header">
-                <ui>
-                    <li><button type="button"><img class="chat-button" src="../NetMattersHomePage/Imgs/chat-bubble-icon.png"></button></li>   
-                      <li><img class="logo" alt="logo" src="../NetMattersHomePage/Imgs/nm-logo.png"></li>
-                         <li><button class="sbutton" type="button">Support</button></li>
-                          <li><button class="cbutton" type="button">Contact</button></li>
-                            <li><form action="">
-                                <input class="search-bar" type="text" placeholder="Search.." name="search">
-                                <button class="search" type="button">search</button>
-                                </form></li>
-                    </ui>
-            </header>
-        
-        <!-- Main Nav -->
-        <div>
-            <ul>
-                <li><a href="#"> Web Design</a></li>
-                <li><a href="#">IT Support</a></li>
-                <li><a href="#">Telecom Services</a></li>
-                <li><a href="#">Bespoke Software</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Cyber Security</a></li>
-            </ul>
-        </div>
         <!-- Top Content -->
         <div>
-            <img alt="logo-background" src="Imgs/nm-logo.png">
+            <img class="banner" src="Imgs/home1.jpg">                   
         </div>
         <!-- Middle Content -->
+
         <!-- 7 Flex Boxes with li items + Developer Training -->
         <div class="middle">
+            <div class="container">
+                <section class="cards">
+
+                    <div class="card card1">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas1 fa-border-all fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>Bespoke Software</h2></span>
+                           <span> <p>Tailored Software Solutions to improve
+                                business productivity and online profits. Our
+                                expert team will ensure a software solution.</p></span>
+                            <span><button class="c1button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+
+                    <div class="card card2">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas2 fa-tv fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>IT Support</h2></span>
+                           <span> <p>Remotely managed IT sevices that is catered to your business
+                                     needs, adds value and reduces costs</p></span>
+                             <span><button class="c2button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+
+                    <div class="card card3">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas3 fa-signal fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>Digital Marketing</h2></span>
+                           <span> <p>Driving brand awareness and ROI through creative digital
+                                    marketing campaigns. We review and monitor online
+                                    performances.</p></span>
+                             <span><button class="c3button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+
+                    <div class="card card4">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas4 fa-phone-volume fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>Telecom Services</h2></span>
+                           <span> <p>Stay connected with bespoke telecoms solutions when you need it most.</p></span>
+                             <span><button class="c4button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+
+                    <div class="card card5">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas5 fa-code fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>Web Design</h2></span>
+                           <span> <p>User-centric design for
+                                 businesses looking to make a
+                                  lasting first impression.</p></span>
+                             <span><button class="c5button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+
+                    <div class="card card6">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas6 fa-shield-alt fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>Cyber Security</h2></span>
+                           <span> <p>Ensuring your online business
+                                    stays secure 24/7, 365 days of
+                                    the year.</p></span>
+                             <span><button class="c6button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+
+                    <div class="card card7">
+                        <a href="#">
+                        <span class="icon">
+                            <i class="fas7 fa-graduation-cap fas fa-3x"></i>
+                        </span>
+                        <span class="h2"><h2>Developer Training</h2></span>
+                           <span> <p>Have you considered a career
+                                    in web development but you
+                                    aren't sure where to start.</p></span>
+                             <span><button class="c7button" type="button">Read more</button></span>
+                        </a>
+                    </div>
+                </section>
+            </div>
 
         </div>
 
         <!-- Bottom Content -->
-        <div>
-            <span class="logo"></span>            
+        <div class="culture-bg">
+            <h2>NETMATTERS</h2>
+                <div class="culture-container">
+                    <p>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham, Norfolk.</p>
+
+                    <p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture existing 
+                    leads and further grow their sales.</p>
+                    
+                    <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management systems,
+                     workflow and IT solutions through to creative website development and integrated digital campaigning.</p>
+                    
+                     <button class="cultre">Our Culture</button>
+                </div>
         </div>
 
         <!-- Latest/ Blog -->
@@ -106,6 +292,9 @@
                 </div>
             
           </footer>
-      
+     
+    
+        <a target="_blank" href="https://icons8.com/icons/set/source-code">Source Code icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+     </div> 
     </body>
 </html>

@@ -1,0 +1,207 @@
+
+@media screen and (min-width: 990px){
+
+.main-header {
+    display: block;
+    height: 100px;
+    background-color: orange;
+    
+}
+
+.header-row {
+    display: block;
+    list-style-type: none;
+    width: 100%; 
+    height: 100px;
+    float: left;
+}
+
+.row {
+    float: left;
+    display: relative;
+    width: 100%;
+    align-items: center;
+}
+
+.row-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chat_button_img {
+    margin-left: 20px;
+    height: 75px;
+    width: 75px;
+    background: none;
+    border: none;
+    float: left;
+}
+
+.logo_img {
+    width: auto;
+    height: 100%;    
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;    
+}
+
+.sbutton {
+    display: block;
+    padding: 5px 15px;
+    background-color: #4183d7;
+    border-color: #4183d7;
+    border-radius: 3px;
+    color: white;
+    margin-right: 10px;
+    height: 56px;
+}
+
+.cbutton {
+    display: block;
+    padding: 5px 15px;
+    background-color: #4183d7;
+    border-color: #4183d7;
+    border-radius: 3px;
+    color: white;
+    margin-right: 10px;
+    height: 56px;
+}
+
+
+.search {
+    color: white;
+    margin-right: 10px;
+    border-radius: 3px;
+    height: 56px;
+    float: right;
+}
+
+.fa-phone-volume::before {
+    display: none;
+}
+
+
+.fa-bars {
+    float: right;
+}   
+
+/* ----------MAIN NAV MENU ------------- */
+
+.main-nav-outer {
+    display: block;
+}
+
+.main-nav {    
+    list-style-type: none;    
+    margin: 0;
+    width: 100%;
+    background-color: #333645; 
+    align-items: center;
+    height: 100px;
+}
+
+.ul-container {
+    display: inline-flex;
+    height: 100px;
+    color: white;
+    list-style-type: none;
+     width: 70%;
+        li {
+            display: inline;
+            border: 1px solid white;            
+          a {
+              text-decoration: none;
+              display: inline-block;
+        }
+    }
+}
+
+#services-list {
+    display: none;
+}
+#services:hover ~ #services-list {
+    display: inline-block;
+    flex-direction: row; 
+    color: inherit;
+
+}
+
+#services-list:hover {
+    color: inherit;
+    display: inline;
+    li{
+        display: inline;
+      }
+
+}
+
+.men-but {
+    flex-direction: column;
+    height: 100px;
+    flex-basis: 15%;
+}
+
+.menu {
+    flex-direction: column;
+}
+
+ #web-dev:hover {
+    background-color: #926fb1;
+    list-style-type: none;
+}
+
+#it-sup:hover {
+    background-color: #4183d7;
+    list-style-type: none;
+}
+
+#tel-ser:hover {
+    background-color: #d64541;;
+    list-style-type: none;
+}
+
+#bes-sof:hover {
+    background-color: #67809f;
+    list-style-type: none;
+}
+
+#dig-mar:hover {
+    background-color: #2ecc71;
+    list-style-type: none;
+}
+
+#cyb-sec:hover {
+    background-color: #f62459;;
+    list-style-type: none;
+}
+
+
+.banner {    
+    display: block;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card1, .card2, .card3 {    
+    width: 30%; 
+    
+}
+
+.card4, 
+.card5, 
+.card6, 
+.card7 {
+  width: 40%; 
+}
+}
+
+
