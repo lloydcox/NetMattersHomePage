@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mediaqueries575.css",
+	"sources": [
+		"../../SCSS/partials/mediaqueries575.scss"
+	],
+	"sourcesContent": [
+		"\r\n@media screen and (min-width: 575px) {\r\n    \r\n\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

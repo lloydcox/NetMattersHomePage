@@ -1,0 +1,84 @@
+
+
+
+/* -------- MAIN HEADER ------*/
+
+.main-header {
+    display: flex; 
+    flex-direction: column;
+    height: 250px;  
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.row {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%; 
+}
+
+.row-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chat_button_img {
+    display: none;
+}
+
+.logo_img {
+    margin: 20px 10px;
+    width: 100%;
+    height: auto;       
+}
+
+.fa-bars {
+padding: 15px;
+margin: auto;
+background-color: #333645;
+border-radius: 5px;
+} 
+
+.fa-phone-volume {
+    padding: 10px;
+    margin: auto;
+    margin-right: 10px;
+    
+} 
+
+.sbutton {
+ display: none;
+}
+
+.cbutton {
+display: none;
+}
+
+.search-outer {
+    width: 100%;
+}
+
+.searchContainer {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;    
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 75px;
+    background-color: rgba(0,0,0,.1);    
+}
+  
+.searchBox {
+    font-size: 1.5em;
+    border: 0;
+    background-color: rgba(0,0,0,.05);
+    width: 100%;
+    
+  }
+
+  .searchIcon {
+     background-color: rgba(0,0,0,.05); 
+     align-self: center;        
+}
+  

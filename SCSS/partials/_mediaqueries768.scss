@@ -1,0 +1,108 @@
+
+@media screen and (min-width: 768px) {
+    
+
+
+
+/* ------ clients -------*/
+
+.clients {
+    display: block;
+    width: 100%;
+}
+
+.clients-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.client {
+    margin: 20px 0px;
+    filter: saturate(0);
+}
+
+.client:hover {
+    filter: saturate(1);
+}
+
+/* -------- footer -------- */
+.footer {
+    background-color: #333645;
+    color: white;
+}
+
+.cols1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     p { 
+         color: white;
+}
+}
+.col-2 {
+    color: white;
+    li {
+        list-style-type: none;
+    }
+    a {
+        color: white;
+    }
+}
+
+.col-3 {
+    color: white;
+    li {
+        list-style-type: none;
+    }
+    a {
+        color: white;
+    }
+}
+
+.col-xs {
+    padding: 25px 50px;
+    background: #121419;
+    color: white;
+    margin: 25px;
+}
+
+.col-fb:hover {    
+    background: #3b5998;;
+}
+
+.col-tw:hover {    
+    background: #00aced;
+}
+
+.col-li:hover {    
+    background: #0077b5;
+}
+
+/* ----- Partners ----- */
+
+.partners {
+    width: 100%;
+    align-content: center;
+}
+
+.partners-container {
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
+
+.partner-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+
+.partner {
+    margin: 20px 0px;    
+}
+
+
+
+}

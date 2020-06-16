@@ -1,0 +1,169 @@
+
+
+/* ----------Banner Section ---------------*/
+
+.banner-container {
+    height: 80vh;
+}
+.banner {    
+    display: block;
+    width: 100%;
+    height: 80vh;
+} 
+
+/* ----------Middle Card Section ---------------*/
+
+.middle {
+    display: block;
+    background-color: #f5f5f5af;
+}
+
+.container {    
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cards {
+    
+    display: block;
+    margin: 25px;
+    font-size: 1.25rem;
+    p {
+        margin: 20 50px;
+    }
+}
+
+.card {
+    position: relative; 
+    min-height: 1px; 
+    padding: 35px;    
+    background-color: white;
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    font-size: 1.125em;
+}
+
+span.h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40px;
+    height: 4px;
+    display: block;
+    background-color: #333645;
+}
+
+.card {  
+    a:visited {
+        color: inherit;
+    }
+    
+    p {
+        margin: 50px;
+    }
+}
+
+.icon {
+    color: white;
+}
+
+
+.fas1 {
+   background-color: #67809f;
+   border-radius: 50%;
+   padding: 30px;
+}
+
+.fas2 {
+    background-color: #4183d7;
+    border-radius: 50%;
+    padding: 25px;
+ }
+
+ .fas3 {
+    background-color: #2ecc71;
+    border-radius: 50%;
+    padding: 25px;
+ }
+
+ .fas4 {
+    background-color: #d64541;
+    border-radius: 50%;
+    padding: 25px;
+ }
+
+ .fas5 {
+    background-color: #926fb1;
+    border-radius: 50%;
+    padding: 25px;
+ }
+
+ .fas6 {
+    background-color: #f62459;
+    border-radius: 50%;
+    padding: 25px;
+ }
+
+ .fas7 {
+    background-color: #926fb1;
+    border-radius: 50%;
+    padding: 25px;
+ }
+
+ .buttonc {
+     font-size: 1.5em;
+     text-transform: uppercase;
+
+ }
+
+ .c1button {
+     background-color: #67809f;
+     padding: 20px 25px;
+     border-radius: 3px;
+     margin: 20px 0;
+ }
+
+ .c2button {
+    background-color: #4183d7;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.c3button {
+    background-color: #2ecc71 ;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.c4button {
+    background-color: #d64541;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.c5button {
+    background-color: #926fb1;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.c6button {
+    background-color: #f62459;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.c7button {
+    background-color: #926fb1;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin: 20px 0;
+}

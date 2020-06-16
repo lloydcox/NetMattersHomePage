@@ -1,11 +1,14 @@
 
+
+
 @media screen and (min-width: 990px){
+
+    /* -- main-header -- */
 
 .main-header {
     display: block;
     height: 100px;
-    background-color: orange;
-    
+       
 }
 
 .header-row {
@@ -81,11 +84,6 @@ button {
     float: right;
 }
 
-.fa-phone-volume::before {
-    display: none;
-}
-
-
 .fa-bars {
     float: right;
 }   
@@ -93,21 +91,20 @@ button {
 /* ----------MAIN NAV MENU ------------- */
 
 .main-nav-outer {
-    display: block;
+    display: inline;
 }
 
 .main-nav {    
+    display: inline-block;
     list-style-type: none;    
     margin: 0;
     width: 100%;
     background-color: #333645; 
-    align-items: center;
-    height: 100px;
+    align-items: center;    
 }
 
 .ul-container {
-    display: inline-flex;
-    height: 100px;
+    display: inline-block;
     color: white;
     list-style-type: none;
      width: 70%;
@@ -133,17 +130,15 @@ button {
 
 #services-list:hover {
     color: inherit;
-    display: inline;
+    display: inline-block;
     li{
-        display: inline;
+        display: inline-block;
       }
 
 }
 
 .men-but {
-    flex-direction: column;
-    height: 100px;
-    flex-basis: 15%;
+    flex-direction: column;    
 }
 
 .menu {
@@ -202,6 +197,24 @@ button {
 .card7 {
   width: 40%; 
 }
+
+.acontainer {
+    display: flex;
+}
+.cols {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 1 0;
 }
 
+.col-lg {
+    width: 30%;
+    flex: 1 1 0;
+    text-align: center;
+    padding: 5px;
+} 
+
+
+}
+ 
 
