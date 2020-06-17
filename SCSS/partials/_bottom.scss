@@ -3,20 +3,19 @@
 /*-- Bottom Content */
 
 .culture-bg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../Imgs/unnamed.jpg") ;
+    background: #333645;
     color: white;
 }
 
 
 .text-box {
-    width: 80%;
-    padding: 25px;
-    margin: 50px;
+    width: 90%;
+    padding: 5px;
+    margin: 20px;
     color: white;
-    font-size: 1.5em;
+    font-size: .95em;
     line-height: 2em;
+    font-weight: 700;
     h2 {
         font-size: 2.5em;
         font-weight: 400;
@@ -24,7 +23,7 @@
 }
 
 .culture-button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     color: #333645;
     background-color: #ebebeb;
     border-color: #e0e0e0;
@@ -58,9 +57,10 @@
     background-color: white;
     margin-top: 0;
     h2 {
-        margin-left: 2%;
-        font-size: 3em;
+        margin-left: 22px;
+        font-size: 1.5em;
         color: #333645;
+        text-transform: uppercase;
     }
 }
 
@@ -70,9 +70,9 @@
         left: 0;
         right: 0;
         margin: auto;
-        width: 150px;
-        height: 8px;
-        display: block;
+        width: 80px;
+        height: 5px;
+        
         background-color: #333645;
         margin-left: 25px;
  }    
@@ -91,6 +91,7 @@
 }
 
 .img-container {
+    position: relative;
     border-radius: 3px 3px 0 0;
     align-content: center;
 }
@@ -103,8 +104,33 @@
 
 .img {
     width: 100%;
-    height: auto;
-        
+    height: auto;        
+}
+
+.tool-tip {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #926fb1;
+    color: white;
+    font-size: .75rem;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.tool-tip1 {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #67809f;
+    color: white;
+    font-size: .75rem;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    z-index: 1;
 }
 
 .block {
@@ -113,11 +139,11 @@
        
     h3 {
         margin-left: 35px;
-        font-size: 2em;
+        font-size: 1.5em;
     } p {
         margin-left: 35px;
         margin-right: 35px;
-        font-size: 1.35em;
+        font-size: 1em;
         color: #666;
     }
 }
@@ -148,8 +174,9 @@
 }
 
 .details {
-    font-size: 1.5em;
+    font-size: .95em;
     margin-left: 40px;
+    margin-top: 10px;
     
 }
 
@@ -161,7 +188,7 @@
 }
 
 .author {
-    height: 75px;
+    height: 50px;
     max-width: 75px;
     border-radius: 50%;
     margin-right: 5px;

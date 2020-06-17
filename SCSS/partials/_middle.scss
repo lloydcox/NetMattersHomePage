@@ -3,13 +3,39 @@
 /* ----------Banner Section ---------------*/
 
 .banner-container {
-    height: 80vh;
-}
-.banner {    
-    display: block;
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.99)),url("../Imgs/home.jpg");
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
-} 
+    color: white;
+    display: flex;              
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;        
+    border: 1px solid black;    
+}
+
+
+.banner-text {
+    width: 400px;
+    margin: 5px;
+    text-align: center;
+    h2 {
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+    p {
+        font-size: 1.135em;
+    }
+
+    .more-button {
+        background-color: #926fb1;
+        padding: 10px 20px;
+        border-radius: 3px;
+        margin: 10px 0;
+    }
+}
 
 /* ----------Middle Card Section ---------------*/
 
@@ -24,24 +50,24 @@
     margin: 0 auto;
 }
 
-.cards {
-    
+.cards {    
     display: block;
     margin: 25px;
-    font-size: 1.25rem;
-    p {
-        margin: 20 50px;
-    }
+    font-size: 1rem;
 }
 
 .card {
     position: relative; 
     min-height: 1px; 
-    padding: 35px;    
+    padding: 15px;    
     background-color: white;
-    margin: 30px 0;
+    margin: 20px 0;
     border: 1px solid #ccc;
-    font-size: 1.125em;
+    font-size: 0.8em;
+    h2 {
+        font-size: 1.25em;
+        font-weight: 400;
+    }
 }
 
 span.h2:after {
@@ -51,7 +77,7 @@ span.h2:after {
     right: 0;
     margin: auto;
     width: 40px;
-    height: 4px;
+    height: 3px;
     display: block;
     background-color: #333645;
 }
@@ -59,111 +85,113 @@ span.h2:after {
 .card {  
     a:visited {
         color: inherit;
-    }
-    
+    }    
     p {
-        margin: 50px;
+        margin-top: 30px;
     }
 }
 
 .icon {
     color: white;
+    font-size: 1.438rem;
+    line-height: 58px;
 }
 
 
 .fas1 {
    background-color: #67809f;
    border-radius: 50%;
-   padding: 30px;
-}
+   padding: 15px;
+   }
 
 .fas2 {
     background-color: #4183d7;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px;
  }
 
  .fas3 {
     background-color: #2ecc71;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px;
  }
 
  .fas4 {
     background-color: #d64541;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px;
  }
 
  .fas5 {
     background-color: #926fb1;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px;
  }
 
  .fas6 {
     background-color: #f62459;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px;
  }
 
  .fas7 {
     background-color: #926fb1;
     border-radius: 50%;
-    padding: 25px;
+    padding: 15px;
  }
 
  .buttonc {
-     font-size: 1.5em;
+     font-size: 1.125em;
      text-transform: uppercase;
+     font-weight: 400;
 
  }
 
  .c1button {
      background-color: #67809f;
-     padding: 20px 25px;
+     padding: 10px 20px;
      border-radius: 3px;
-     margin: 20px 0;
+     margin: 10px 0;
  }
 
  .c2button {
     background-color: #4183d7;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .c3button {
     background-color: #2ecc71 ;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .c4button {
     background-color: #d64541;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .c5button {
     background-color: #926fb1;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .c6button {
     background-color: #f62459;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .c7button {
     background-color: #926fb1;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 3px;
-    margin: 20px 0;
+    margin: 10px 0;
 }

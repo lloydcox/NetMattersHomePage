@@ -23,17 +23,32 @@
 
 /* -------- footer -------- */
 .footer {
+    padding-top: 20px;
     background-color: #333645;
     color: white;
 }
 
 .cols1 {
     display: block;
+    margin-top: 20px;
      p { 
          color: white;
 }
 }
+
+.col-1 {
+    margin-left: 20px;
+    color: white;
+    li {
+        list-style-type: none;
+    }
+    a {
+        color: white;
+    }
+}
+
 .col-2 {
+    margin-left: 20px;
     color: white;
     li {
         list-style-type: none;
@@ -44,6 +59,18 @@
 }
 
 .col-3 {
+    margin-left: 20px;
+    color: white;
+    li {
+        list-style-type: none;
+    }
+    a {
+        color: white;
+    }
+}
+
+.col-4 {
+    margin-left: 20px;
     color: white;
     li {
         list-style-type: none;
@@ -59,13 +86,22 @@
     flex-wrap: wrap;
 }
 
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    h2 {
+        font-size: 1.25em;
+    }
+}
+
 .col-xs {
     display: flex;
-    flex-basis: 40%;
+    width: 40%;
     padding: 10px 0;
     background: #121419;
     color: white;
-    margin: 25px;
+    margin: 25px 25px 25px 0;
     justify-content: center;
 }
 
@@ -89,11 +125,7 @@
     align-content: center;
 }
 
-.partners-container {
-    margin-left: 10%;
-    margin-right: 10%;
- 
-}
+
 
 .partner-list {
     width: 100%;
@@ -103,6 +135,6 @@
 }
 
 .partner {
-    margin: 20px 0px;    
+    margin: 20px 0px;  
 }
 

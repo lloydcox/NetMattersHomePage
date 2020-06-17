@@ -6,8 +6,7 @@
 .main-header {
     display: flex; 
     flex-direction: column;
-    height: 250px;  
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 20px;
 }
 
@@ -18,8 +17,8 @@
 }
 
 .row-menu {
-    display: flex;
-    justify-content: space-around;
+    display: inline-flex;
+    margin-bottom: 10px;
 }
 
 .chat_button_img {
@@ -27,23 +26,27 @@
 }
 
 .logo_img {
-    margin: 20px 10px;
-    width: 100%;
-    height: auto;       
+    width: 95%;
+    height: auto; 
+}
+
+.icon-row {
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 .fa-bars {
-padding: 15px;
-margin: auto;
-background-color: #333645;
-border-radius: 5px;
-} 
+    padding: 15px;
+    margin: auto;
+    background-color: #333645;
+    border-radius: 5px;
+    color: white;
+    } 
 
 .fa-phone-volume {
     padding: 10px;
-    margin: auto;
-    margin-right: 10px;
-    
+    color: #333645;  
+    margin-right: 3px;
 } 
 
 .sbutton {
@@ -56,29 +59,27 @@ display: none;
 
 .search-outer {
     width: 100%;
+    background-color: rgba(0,0,0,.1);
 }
 
 .searchContainer {
     display: inline-flex;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;    
-    margin-left: 5px;
-    margin-bottom: 5px;
-    height: 75px;
-    background-color: rgba(0,0,0,.1);    
+    
+    width: 100%; 
+    padding: 10px 0;
 }
   
 .searchBox {
-    font-size: 1.5em;
+    background-color: rgba(0,0,0,.005);
+    font-size: 1em;
     border: 0;
-    background-color: rgba(0,0,0,.05);
-    width: 100%;
-    
+    width: 100%;    
   }
 
-  .searchIcon {
-     background-color: rgba(0,0,0,.05); 
-     align-self: center;        
+  .searchIcon {     
+     align-self: center;    
+     font-size: 1.25em;    
 }
   
