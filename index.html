@@ -27,19 +27,24 @@
                                         <button class="sbutton" type="button">Support</button>
                                             <button class="cbutton" type="button">Contact</button>
                                 </div>
-                                                <div class="icon-row">
-                                                    <i class="fas fa-phone-volume fas fa-2x"></i>
+                                <div class="search-outer">
+                                    <div class="searchContainer">
+                                            <input class="searchBox" type="search" name="search" placeholder="  Search...">
+                                                                    
+                                            <button class="search-button"><i class="fa fa-search searchIcon fas fa-1x" type="submit" value="Search"></i></button>
+                                        
+                                    </div>                                                    
+                                </div>
+
+                                <div class="icon-row">
+                                                    <i id="phone" class="fas fa-phone-volume fas fa-2x"></i>
                                                     <i class="fas fa-bars fas fa-2x"></i>
-                                                </div>
-                        </div>
+                                 </div>
+                        
                     
-                    <div class="search-outer">
-                        <div class="searchContainer">
-                                <input class="searchBox" type="search" name="search" placeholder="  Search...">
-                                <i class="fa fa-search searchIcon fas fa-1x" type="submit" value="Search"></i>
-                        </div>                                                    
+
+                        </div>
                     </div>
-                
            </header>
             
             <!-- Main Nav -->
@@ -128,8 +133,7 @@
             <div class="banner-content">
                 <div class="banner-text">
                     <h2>Web Design</h2>
-                        <p>For Businesses looking to make a strong<br>
-                            and effective first impression.</p>
+                        <p>For Businesses looking to make a strong and effective first impression.</p>
                             <button class="more-button">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
@@ -257,40 +261,38 @@
                     <h2>Latest</h2>
                 </div>
                     <div class="acontainer">
-                        <section class="cols">
+                        <div class="cols">
+
                         <div class="col-lg col-lg1">
                             <div class="item">
-                                <a class="img-bordered" href="https://www.netmatters.co.uk/may-2020-notable-employee">
                                 <div class="img-container">
                                     <a href="https://www.netmatters.co.uk/news/web-design" class="tool-tip" data-original-title="View all: Bespoke Software / News">
-                                        News
+                                            News
                                     </a>
-                                    <picture>
-                                        <img class="img" src="Imgs/may-2020-notable-sK95.jpg">
-                                    </picture>
-                                    <div class="block">
-                                        <h3>May Notable Employee</h3>
-                                        <p>It's the beginning of June which means only one thing here at Netmatters - announcing the winner.</p>
-                                        <div class="rmdiv"><button class="rmbutton" type="button">Read More</button></div>
-                                        <div class="user">
-                                            <div class="avatar">
-                                                <picture>
-                                                    <img class="author" src="Imgs/nm.jpg">
-                                                </picture>
-                                            </div>
-                                            <div class="details">
-                                                <strong class="text-primary">Posted by Netmatters Ltd</strong>
-                                                <br><span class="text-secondary">10th June 2020"</span>
+                                    <a class="img-bordered" href="https://www.netmatters.co.uk/may-2020-notable-employee">    
+                                        <picture>
+                                            <img class="img" src="Imgs/may-2020-notable-sK95.jpg">
+                                        </picture>
+                                        <div class="block">
+                                            <h3>May Notable Employee</h3>
+                                            <p>It's the beginning of June which means only one thing here at Netmatters - announcing the winner.</p>
+                                            <div class="rmdiv"><button class="rmbutton" type="button">Read More</button></div>
+                                            <div class="user">
+                                                <div class="avatar">
+                                                    <picture>
+                                                        <img class="author" src="Imgs/nm.jpg">
+                                                    </picture>
+                                                </div>
+                                                <div class="details">
+                                                    <strong class="text-primary">Posted by Netmatters Ltd</strong>
+                                                    <br><span class="text-secondary">10th June 2020"</span>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     </a>
                                 </div>
+                            </div>                        
                         </div>
-
-
-                        </div>
-
                         <div class="col-lg col-lg2">
                             <div class="item">
                                 <div class="img-container">
@@ -313,7 +315,7 @@
                                             </div>
                                             <div class="details">
                                                 <strong class="text-primary">Posted by Rob George</strong>
-                                                <br><span class="text-secondary">"10th June 2020"</span>
+                                                <span class="text-secondary">"10th June 2020"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -354,30 +356,57 @@
                                 </div>
                             </div>
                         </div>
-                        </section>
+
+                        </div>
                     </div>
             </div>
-        </div>
-
-        
+        </div>        
 
         <!-- Clients -->
         <div class="clients">
             <div class="clients-container">
 
                 <div class="client">
+                <div class="client-description" id="client-description">
+                    <div class="box">
+                        <h2>Busseys</h2>
+                        <p>One of the UK's leading Ford dealerships.</p>
+                        <div class="arrow">...</div>
+                    </div>
+                </div>
                 <a  href="#"><img class="client1" src="../NetMattersHomePage/Imgs/busseys.png"></a>
                 </div>
 
                 <div class="client">
+                <div class="client-description" id="client-description">
+                    <div class="box">
+                        <h2>Crane Garden Builders</h2>
+                        <p>Leading manufacturer and supplier of high-end garden rooms, summerhouses, workshops and sheds in the UK</p>
+                        <div class="arrow">...</div>
+                    </div>
+                </div>
                 <a href="https://www.netmatters.co.uk/new-website-developed-for-crane-garden-buildings"><img class="client2" src="Imgs/Crane.png"></a>
                 </div>
 
                 <div class="client">
-                <a href="#"><img class="client3" src="Imgs/Beat.png"</a>
+                    <div class="client-description" id="client-description">
+                        <div class="box">
+                            <h2>Beat</h2>
+                            <p>The UK's eating disorder charity founded in 1989.</p>
+                            <div class="arrow">...</div>
+                        </div>
+                    </div>
+                    <a href="#"><img class="client3" src="Imgs/Beat.png"</a>
                 </div>
 
                 <div class="client">
+                <div class="client-description" id="client-description">
+                    <div class="box">
+                        <h2>Northern Diver</h2>
+                        <p>Global water based equipment manufacturers for sport, military, commercial and rescue business</p>
+                        <div class="arrow">...</div>
+                    </div>
+                </div>
                 <a href="https://www.netmatters.co.uk/new-northern-diver-website-is-live"><img class="client4" src="Imgs/Northen.png"></a>
                 </div>
             </div>
