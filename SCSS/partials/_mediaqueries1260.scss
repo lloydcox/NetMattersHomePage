@@ -1,5 +1,51 @@
 @media screen and (min-width: 1260px) {
-    
 
+    
+/* -------- Middle ----------- */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    font-size: 1,125em;
+}
+.card1, .card2, .card3 {    
+    width: 30%;     
+}
+
+.card4, 
+.card5, 
+.card6, 
+.card7 {
+  width: 22%; 
+}
+
+/*------- bottom ------*/
+
+.text-box {
+    width: 50%;
+}
+
+/*-------- Blog -------*/
+
+.cols {
+    justify-content: space-around;
+}
+
+.col-lg {
+    width: 30%;
+}
+
+.col-lg3 {
+    display: block;
+}
+
+/* --------- footer -----*/
+
+.col-1, .col-2, .col-3, .col-4 {
+    width: 22%;
+    margin-left: 20px;
+}
 
 }

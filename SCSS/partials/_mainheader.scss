@@ -29,9 +29,7 @@
 }
 
 .logo-row {
-    width: 70%;
     margin-bottom: 10px;
-    flex-shrink: 3;
 }
 
 .logo_img {
@@ -40,6 +38,10 @@
     flex-shrink: 3;
 }
 
+.button-row {
+    display: inline-flex;
+    align-items: center;    
+}
 .icon-row {
     justify-content: space-between;    
 }
@@ -73,15 +75,15 @@ display: none;
     margin-bottom: 10px;
 }
 
-.searchContainer {
+.search-container {
     display: inline-flex;
     border: 1px solid #ccc;
     border-radius: 5px;    
     width: 100%; 
-    padding: 5px 0;
+    
 }
   
-.searchBox {
+.search-box {
     background-color: rgba(0,0,0,.005);
     font-size: 1em;
     border: 0;
