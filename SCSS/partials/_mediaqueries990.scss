@@ -48,22 +48,18 @@
     width: 20%;
 }
 
-
 /* ----------MAIN NAV MENU ------------- */
 
 .main-nav-outer {
-    display: inline-flex;
+    visibility: visible;
 }
 
 /* -------- Middle ----------- */
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0;
-    font-size: 1,125em;
+.container {
+    width: 970px;
 }
+
 .card1, .card2, .card3 {    
     width: 30%;     
 }
@@ -89,21 +85,28 @@
 
 /* ------- Blog -----------*/
 
-.acontainer {
-    display: flex;
-    align-content: center;
+.latest-row {
+    width: 970px;
 }
+
 .cols {
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1 1 0;
+    width: 970px;
 }
 
 .col-lg {
     width: 30%;
-    flex: 1 1 0;
-    margin: 10px;
 } 
+
+.clients-container {
+    width: 970px;
+
+}
+
+/* ------- Clients -----------*/
+
+.clients-container {
+    width: 970px;
+}
 
 
 }

@@ -1,12 +1,20 @@
 @media screen and (min-width: 1260px) {
 
+
+
+
     
+
 /* -------- Middle ----------- */
+
+.container {
+    width: 1200px;
+}
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0;
     font-size: 1,125em;
 }
@@ -29,8 +37,12 @@
 
 /*-------- Blog -------*/
 
+.latest-row {
+    width: 1200px;
+}
+
 .cols {
-    justify-content: space-around;
+    width: 1200px;
 }
 
 .col-lg {
@@ -41,11 +53,16 @@
     display: block;
 }
 
+.clients-container {
+    width: 1200px;
+}
+
 /* --------- footer -----*/
 
 .col-1, .col-2, .col-3, .col-4 {
     width: 22%;
     margin-left: 20px;
 }
+
 
 }
