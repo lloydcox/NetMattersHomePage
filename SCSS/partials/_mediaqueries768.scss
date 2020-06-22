@@ -4,70 +4,65 @@
     /* -------- MAIN HEADER ------*/
     
 
-    
-.row {
-    display: inline-flex;
-    list-style-type: none;
-    width: 100%; 
-    justify-content: space-between;
+
+.container-h {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
 }
     
 .row-menu {
-    display: inline-flex;
-    width: 100%;  
     flex-wrap: nowrap;
-    align-items: flex-start;
-    margin-top: 10px;
-    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
 }    
 
-.logo-row {
-    margin: 0;
-}
-
-.logo_img {      
+.logo_img { 
+    width: 90%;     
     height: auto;       
 }
     
+.button-row {
+    order: 0;
+    width: auto;
+    margin-top: 0;
+}
+
 .icon-row {
     display: flex;
-    margin-top: 10px;
+    height: 60px;
 }
     
 #phone {
     display: none;
 } 
-    
+
+.search-button {  
+    height: 60px;
+    background-color: #999aa2;
+    width: 40%;   
+    color: white;
+}
    
 .search-outer {   
     order: 0;   
-    width: 50%;
     align-self: baseline;
-    margin-right: 10px;
-    margin-top: 10px;
     height: 60px;
     background-color: white;
+    margin: 0;
  }
     
- .search-container {
-    display: inline-flex;
-    border: 1px solid #ccc;
-    border-radius: 5px;  
-    height: inherit;   
-}
-      
-.search-box {
-    font-size: 1em;
-    border: 0;     
-}
-    
-.search-button {  
+.search-container {
     height: inherit;
-    background-color: #999aa2;
-    width: 50%;   
-    color: white;
 }
-       
+ 
+.m-button {
+    justify-content: center;
+    height: auto;
+    align-content: center;
+    border: 1px solid #333645;
+} 
+
     /* ----------Middle Card Section ---------------*/
 
 .container {
@@ -80,7 +75,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 60px;
 }
 
 .card1, .card2, .card3 {    
@@ -163,7 +157,6 @@
     .box {
         position: absolute;
         width: inherit;
-        min-width: 200px;
         max-width: 260px;
         max-height: 200px;
         padding: 25px;

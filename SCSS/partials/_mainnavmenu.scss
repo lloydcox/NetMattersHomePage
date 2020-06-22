@@ -3,8 +3,8 @@
 /* ----------MAIN NAV MENU ------------- */
 
 .main-nav-outer {
-    visibility: hidden;
-    width: inherit;
+    display: none;
+    width: 100%;
 }
 
 .main-nav {    
@@ -19,28 +19,25 @@
     list-style-type: none;
     width: 100%;
     justify-content: center;
-    text-align: center;
     li {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         color: white;
-        text-align: center;
-        a {
+        text-transform: uppercase;
+            a {
             color: white;  
             text-decoration: none; 
             width: 100%;
-            height: 100%;
         }                
     }
 }
 
 .men-but {
-    flex-basis: 15%;
-    width: 100%;
+    flex-basis: 20%;
     display: flex;
     border-right: 1px solid hsla(0,0%,100%,.1);
     border-left: 1px solid rgba(0,0,0,.25); 
-    text-align: center;
+    padding-bottom: 15px;
 }
 
 
@@ -88,14 +85,40 @@
     z-index: 1;
     display: inline-flex;
     top: 100%;    
+    left: 0;
     width: 100vw;
-    background-color: inherit; 
-    overflow: hidden;
-    li {
-        position: relative;
-        float: left;
-    }
+}
 
+.sl-container {
+    display: inline-flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.services-list-wd {
+    background-color: #79539a;
+}
+
+.services-list-it {
+    background-color: #286abd
+}
+
+.services-list-ts {
+    background-color: #bc2c28;
+}
+
+.services-list-bs {
+    background-color: #526781;
+}
+
+.services-list-dm {
+    background-color: #25a25a;
+}
+
+.services-list-cs {
+    background-color: #de093f;
 }
 
 #services:hover ~ #services-list {

@@ -19,31 +19,34 @@
         <!-- Main Header -->
             <header class="main-header" id="header">
                 
-                    <div class="row"> 
-                        <div class="row-menu">
-                            <img class="chat_button_img" src="../NetMattersHomePage/Imgs/chat-bubble-icon.png"> 
-                                <div class="logo-row">
-                                    <img class="logo_img" alt="logo" src="../NetMattersHomePage/Imgs/nm-logo.png">
-                                </div>
-
-                                <div class="button-row">
-                                        <a href="https://support.netmatters.com/"" class="sbutton" type="button">Support</a>
-                                        <a href="https://www.netmatters.co.uk/contact-us" class="cbutton" type="button">Contact</a>
-                                    <div class="search-outer">
-                                        <div class="search-container">
-                                            <input class="search-box" type="search" name="search" placeholder="  Search...">                                                                        
-                                            <button class="search-button"><i class="fa fa-search searchIcon fas fa-1x" type="submit" value="Search"></i></button> 
-                                        </div>                                                    
+                    <div class="row">
+                        <div class="container-h">
+                            <div class="row-menu">
+                                <img class="chat_button_img" src="../NetMattersHomePage/Imgs/chat-bubble-icon.png"> 
+                                    
+                                    <div class="logo-row">
+                                        <img class="logo_img" alt="logo" src="../NetMattersHomePage/Imgs/nm-logo.png">
                                     </div>
-                                </div>
-                                <div class="icon-row">
-                                                    <i id="phone" class="fas fa-phone-volume fas fa-2x"></i>
-                                                    <i class="fas fa-bars fas fa-2x"></i>
-                                </div>
-                        
-                    
 
-                        </div>
+                                        <div class="button-row">
+                                            <a href="https://support.netmatters.com/" class="sbutton" type="button"><i class="fas fa-mouse"></i>Support</a>
+                                            <a href="https://www.netmatters.co.uk/contact-us" class="cbutton" type="button"><i class="fas fa-paper-plane"></i>Contact</a>
+                                               <div class="ssrow">
+                                                <div class="search-outer">
+                                                    <div class="search-container">
+                                                        <input class="search-box" type="search" name="search" placeholder="  Search...">                                               
+                                                    </div>                                                     
+                                                </div>
+                                                <button class="search-button" id="search-button"><i class="fa fa-search searchIcon fas fa-1x" type="submit" value="Search"></i></button>
+                                            </div> 
+                                        </div>
+                                        
+                                    <div class="icon-row">
+                                            <i id="phone" class="fas fa-phone-volume fas fa-2x"></i>
+                                            <button class="m-button"><i class="fas fa-bars fas fa-2x"></i><small>Menu</small></button>
+                                    </div> 
+                            </div>
+                        </div> 
                     </div>
            </header>
             
@@ -57,18 +60,21 @@
                                     <a href="#" id="services">
                                         <span class="icon">
                                             <i class="fas-1 fa-code fas fa-xs"></i>
-                                        </span>
+                                        </span><br>
+                                        
                                         <small>Web</small><br>Design
                                     </a>
                                 
                                 
-                                <ul class="services-list" id="services-list">
+                                <ul class="services-list-wd" id="services-list">
+                                    <div class="sl-container">
                                         <li>Stylish Websites</li>
                                         <li>Ecommerce Stores</li>
                                         <li>Branding</li>
                                         <li>Mobile Apps</li>
                                         <li>Web Hosting</li>
-                                        <li>Pay Monthly Websites</li>                                  
+                                        <li>Pay Monthly Websites</li>  
+                                    </div>                             
                                 </ul>                        
                             </li>
                             
@@ -76,17 +82,19 @@
                                     <a id="services" href="#">
                                         <span class="icon">
                                             <i class="fas-2 fa-tv fas fa-xs"></i>
-                                        </span>
-                                        <small>IT</small> Support
+                                        </span><br>
+                                        <small>IT</small><br> Support
                                     </a>                                       
 
-                                <ul class="services-list" id="services-list">
-                                    <li>Managed Support</li>
-                                    <li>Business IT Support</li>
-                                    <li>Office 365</li>
-                                    <li>Consultancy</li>
-                                    <li>Cloud Provider</li>
-                                    <li>Data Back up</li>
+                                <ul class="services-list-it" id="services-list">
+                                    <div class="sl-container">
+                                        <li>Managed Support</li>
+                                        <li>Business IT Support</li>
+                                        <li>Office 365</li>
+                                        <li>Consultancy</li>
+                                        <li>Cloud Provider</li>
+                                        <li>Data Back up</li>
+                                    </div>
                                 </ul>
                                 
                             </li>   
@@ -95,17 +103,19 @@
                                 <a id="services" href="#">
                                     <span class="icon">
                                         <i class="fas-3 fa-phone-alt fas fa-xs"></i>
-                                    </span>
-                                        <small>Telecom</small> Services
+                                    </span><br>
+                                        <small>Telecom</small><br> Services
                                 </a>
                                 
-                                <ul id="services-list" class="services-list">
-                                    <li>Gigabit Voucher</li>
-                                    <li>Hosted VOIP</li>
-                                    <li>Business VOIP</li>
-                                    <li>Business Broadband</li>
-                                    <li>Leased Lines</li>
-                                    <li>3CX Systems</li>
+                                <ul class="services-list-ts" id="services-list">
+                                    <div class="sl-container">
+                                        <li>Gigabit Voucher</li>
+                                        <li>Hosted VOIP</li>
+                                        <li>Business VOIP</li>
+                                        <li>Business Broadband</li>
+                                        <li>Leased Lines</li>
+                                        <li>3CX Systems</li>
+                                    </div>
                                 </ul>
                             </li>
 
@@ -113,17 +123,19 @@
                                 <a id="services" href="#">
                                     <span class="icon">
                                         <i class="fas-4 fa-border-all fas fa-xs"></i>
-                                    </span>
-                                        <small>Bespoke</small> Software
+                                    </span><br>
+                                        <small>Bespoke</small><br> Software
                                 </a>
                                 
-                                <ul class="services-list" id="services-list">
-                                    <li>Workflow Solutions</li>
-                                    <li>Automation</li>
-                                    <li>Systemm Integration</li>
-                                    <li>Database Management</li>
-                                    <li>Sharepoint</li>
-                                    <li>ERP</li>
+                                <ul class="services-list-bs" id="services-list">
+                                    <div class="sl-container">
+                                        <li>Workflow Solutions</li>
+                                        <li>Automation</li>
+                                        <li>Systemm Integration</li>
+                                        <li>Database Management</li>
+                                        <li>Sharepoint</li>
+                                        <li>ERP</li>
+                                    </div>
                                 </ul>
                             </li>
 
@@ -131,17 +143,19 @@
                                 <a id="services" href="#">                                
                                     <span class="icon">
                                         <i class="fas-5 fa-signal fas fa-xs"></i>
-                                    </span>
-                                        <small>Digital</small> Marketing
+                                    </span><br>
+                                        <small>Digital</small><br> Marketing
                                 </a>
                                 
-                                <ul class="services-list" id="services-list">
-                                    <li>SEO</li>
-                                    <li>PPC</li>
-                                    <li>CRO</li>
-                                    <li>Email</li>
-                                    <li>Social</li>
-                                    <li>Content</li>
+                                <ul class="services-list-dm" id="services-list">
+                                    <div class="sl-container">
+                                        <li>SEO</li>
+                                        <li>PPC</li>
+                                        <li>CRO</li>
+                                        <li>Email</li>
+                                        <li>Social</li>
+                                        <li>Content</li>
+                                    </div>
                                 </ul>
                             </li>
 
@@ -149,17 +163,19 @@
                                 <a id="services" href="#">
                                     <span class="icon">
                                         <i class="fas-6 fa-shield-alt fas fa-xs"></i>
-                                    </span>
-                                        <small>Cyber</small> Security
+                                    </span><br>
+                                        <small>Cyber</small><br> Security
                                 </a>
                                 
-                                <ul class="services-list" id="services-list">
-                                    <li>Assesment</li>
-                                    <li>Management</li>
-                                    <li>Penetrating Testing</li>
-                                    <li>Cyber Essentials</li>
-                                    <li>PCI/DSS</li>
-                                    <li>Hacker Prevention</li>
+                                <ul class="services-list-cs" id="services-list">
+                                    <div class="sl-container">
+                                        <li>Assesment</li>
+                                        <li>Management</li>
+                                        <li>Penetrating Testing</li>
+                                        <li>Cyber Essentials</li>
+                                        <li>PCI/DSS</li>
+                                        <li>Hacker Prevention</li>
+                                    </div>
                                 </ul>
                             </li>
                         </ul>

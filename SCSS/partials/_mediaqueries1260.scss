@@ -1,7 +1,49 @@
 @media screen and (min-width: 1260px) {
 
 
+.container-h {
+    width: 1200px;
+}
 
+.row-menu {
+    width: 1200px;
+}
+
+.logo-row {
+    width: auto;
+}
+
+.logo_img {
+    width: auto;
+}
+
+.sbutton, .cbutton {
+    width: 25%;
+}
+
+.ssrow {
+ flex-basis: auto;
+}
+
+.search-outer {
+    display: flex;
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-button {
+    width: 35%;
+}
+
+
+/*------ Nav Bar ----- */
+
+.sl-container {
+width: 1200px;
+}
 
     
 

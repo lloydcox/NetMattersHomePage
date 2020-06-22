@@ -4,24 +4,29 @@
 /* -------- MAIN HEADER ------*/
 
 .main-header {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-around;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
 }
 
 .row {
-    display: inline-flex;
-    list-style-type: none;
+    display: flex;
     width: 100%; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-h {
+    width: 95%;
+    justify-content: center;
 }
 
 .row-menu {
     width: 100%;
     display: inline-flex;
-    margin: 20px;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-content: space-around;
 }
 
 .chat_button_img {
@@ -29,34 +34,65 @@
 }
 
 .logo-row {
-    margin-bottom: 10px;
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
 }
 
 .logo_img {
-    width: 95%;
-    height: auto; 
-    flex-shrink: 3;
+    width: 100%;
+    height: auto;    
 }
 
 .button-row {
     display: inline-flex;
-    align-items: center;    
-}
-.icon-row {
-    justify-content: space-between;    
+    align-items: center;   
+    order: 1; 
+    width: 100%;
+    margin-top: 10px;
 }
 
-.fa-bars {
-    padding: 15px;
+.ssrow {
+    display: flex;
+    flex-grow: 1;
+}
+
+.icon-row {
+    display: inline-flex;
+    justify-content: flex-end;  
+    flex-grow: 1; 
+}
+
+.m-button {
+    padding: 3px 5px;
     background-color: #333645;
     border-radius: 5px;
     color: white;
-    } 
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+} 
+
+
+.search-button {   
+    align-self: center;    
+    font-size: 1.25em;
+    color: #333645;    
+    padding: 4px;
+    order: 2; 
+    background-color: rgba(0,0,0,.1);
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
 
 .fa-phone-volume {
     padding: 10px;
-    color: #333645;  
-    margin-right: 30px;
+    color: #333645; 
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 .sbutton {
@@ -68,33 +104,31 @@ display: none;
 }
 
 .search-outer {
+    display: flex;
+    flex-wrap: nowrap;
     align-self: flex-end;
     width: 100%;
     background-color: rgba(0,0,0,.1);
     order: 1;
-    margin-bottom: 10px;
 }
 
 .search-container {
     display: inline-flex;
-    border: 1px solid #ccc;
-    border-radius: 5px;    
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-radius: 5px 0px 0 0;    
     width: 100%; 
-    
 }
   
 .search-box {
     background-color: rgba(0,0,0,.005);
     font-size: 1em;
     border: 0;
-    width: 100%;    
+    width: 100%;   
+    padding: 10px; 
   }
 
-  .search-button {   
-     height: 100%;
-     align-self: center;    
-     font-size: 1.25em;
-     color: #333645;    
-}
+
 
   
