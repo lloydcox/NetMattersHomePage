@@ -45,7 +45,11 @@
 width: 1200px;
 }
 
-    
+/*--------- Banner ----------*/
+
+.banner-content {
+    justify-content: start;
+}
 
 /* -------- Middle ----------- */
 
@@ -56,19 +60,19 @@ width: 1200px;
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
+    justify-content: space-around;
     font-size: 1,125em;
 }
+
 .card1, .card2, .card3 {    
-    width: 30%;     
+    width: 33%;     
 }
 
 .card4, 
 .card5, 
 .card6, 
 .card7 {
-  width: 22%; 
+  width: 25%; 
 }
 
 /*------- bottom ------*/

@@ -15,10 +15,12 @@
 
 .ul-container {
     display: inline-flex;
+    flex-direction: row;
     color: white;
     list-style-type: none;
     width: 100%;
     justify-content: center;
+    font-size: 18px;
     li {
         display: flex;
         flex-direction: column;
@@ -37,49 +39,83 @@
     display: flex;
     border-right: 1px solid hsla(0,0%,100%,.1);
     border-left: 1px solid rgba(0,0,0,.25); 
-    padding-bottom: 15px;
 }
 
 
 .fas-1 {
     color: #926fb1;
     border-radius: 50%;
-    padding: 15px;
 }
 
 .fas-2 {
     color: #4183d7;
     border-radius: 50%;
-    padding: 15px;
  }
 
  .fas-3 {
     color: #f62459;
     border-radius: 50%;
-    padding: 15px;
  }
 
  .fas-4 {
     color: #67809f;
     border-radius: 50%;
-    padding: 15px;
  }
 
  .fas-5 {
     color: #2ecc71;
     border-radius: 50%;
-    padding: 15px;
  }
 
  .fas-6 {
     color: #f62459;
     border-radius: 50%;
-    padding: 15px;
  }
 
- /* --------- Nav menu hoveder ---------*/
+ #nav-men-wd {
+     display: flex;
+     flex-direction: column;
+ }
 
-#services-list {
+ #nav-men-wd::after {
+    padding-bottom: 100px;
+    background-color: transparent;
+}
+
+ #nav-men-is {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-men-ts {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-men-bs {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-men-dm {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-men-cs {
+    display: flex;
+    flex-direction: column;
+}
+
+ /* --------- Nav menu hover ---------*/
+
+#services-list-wd,
+#services-list-it,
+#services-list-ts,
+#services-list-bs,
+#services-list-dm,
+#services-list-cs
+ {
     visibility: hidden;
     position: absolute;
     z-index: 1;
@@ -90,11 +126,15 @@
 }
 
 .sl-container {
-    display: inline-flex;
+    display: flex;
+    position: relative;
+    height: 45px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 .services-list-wd {
@@ -121,9 +161,29 @@
     background-color: #de093f;
 }
 
-#services:hover ~ #services-list {
+#nav-men-wd:hover ~ #services-list-wd {
    visibility: visible;
 }
+
+#nav-men-is:hover ~ #services-list-it {
+    visibility: visible;
+ }
+
+ #nav-men-ts:hover ~ #services-list-ts {
+    visibility: visible;
+ }
+
+ #nav-men-bs:hover ~ #services-list-bs {
+    visibility: visible;
+ }
+
+ #nav-men-dm:hover ~ #services-list-dm {
+    visibility: visible;
+ }
+
+ #nav-men-cs:hover ~ #services-list-cs {
+    visibility: visible;
+ }
 
 #web-dev:hover {
     background-color: #926fb1;

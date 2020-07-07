@@ -84,18 +84,33 @@
 .img-container {
     position: relative;
     border-radius: 3px 3px 0 0;
+    overflow: hidden; 
 }
 
+.picture {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;   
+}
+
+.picture img {
+    transition: transform .3s; 
+}
+
+.picture:hover img {
+    transform: scale(1.1);
+    opacity: 50%;
+}
 .img-bordered {
     a:visited {
         color: inherit;
     }
 }
 
-.img {
-    width: 100%;
-    height: auto;        
-}
 
 .tool-tip {
     position: absolute;
@@ -124,16 +139,24 @@
 }
 
 .block {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    padding: 30px;
-       
+    padding: 30px;       
     h3 {
         font-size: 1.125em;
     } p {
         font-size: .85em;
         color: #666;
     }
+}
+
+.h3-1 {
+    color: #926fb1;
+}
+
+.h3-2, 
+.h3-3 {
+    color: #67809f;
 }
 
 .rmbutton {
@@ -156,12 +179,17 @@
     text-transform: uppercase;
 }
 
+.rmdiv {
+    margin-top: 20px;
+}
+
 .rmdiv::after {
     content: "";
     width: 100%;
     height: 4px;
     display: block;
-    border-top: 2px solid #ccc
+    border-top: 2px solid #ccc;
+    margin-top: 30px;
 }
 
 .user {

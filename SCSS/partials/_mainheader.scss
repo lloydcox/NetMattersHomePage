@@ -4,7 +4,7 @@
 /* -------- MAIN HEADER ------*/
 
 .main-header {
-    display: inline-block;
+    display: flex;
     width: 100%;
     padding-top: 20px;
 }
@@ -12,12 +12,11 @@
 .row {
     display: flex;
     width: 100%; 
-    justify-content: center;
     margin-bottom: 10px;
 }
 
 .container-h {
-    width: 95%;
+    display: flex;
     justify-content: center;
 }
 
