@@ -64,9 +64,9 @@
 
 .m-button {
     padding: 3px 5px;
-    background-color: #333645;
+    background-color: $background-color-dark-grey;
     border-radius: 5px;
-    color: white;
+    color: $color-white;
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -77,18 +77,18 @@
 .search-button {   
     align-self: center;    
     font-size: 1.25em;
-    color: #333645;    
+    color: $background-color-dark-grey;    
     padding: 4px;
     order: 2; 
-    background-color: rgba(0,0,0,.1);
-    border-top: 2px solid #ccc;
-    border-bottom: 2px solid #ccc;
-    border-right: 2px solid #ccc;
+    background-color: $search-btn-outr-background-color;
+    border-top: 2px solid $color-light-light-grey;
+    border-bottom: 2px solid $color-light-light-grey;
+    border-right: 2px solid $color-light-light-grey;
 }
 
 .fa-phone-volume {
     padding: 10px;
-    color: #333645; 
+    color: $background-color-dark-grey; 
     font-size: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -107,21 +107,21 @@ display: none;
     flex-wrap: nowrap;
     align-self: flex-end;
     width: 100%;
-    background-color: rgba(0,0,0,.1);
+    background-color: $search-btn-outr-background-color;
     order: 1;
 }
 
 .search-container {
     display: inline-flex;
-    border-top: 2px solid #ccc;
-    border-bottom: 2px solid #ccc;
-    border-left: 2px solid #ccc;
+    border-top: 2px solid $color-light-light-grey;
+    border-bottom: 2px solid $color-light-light-grey;
+    border-left: 2px solid $color-light-light-grey;
     border-radius: 5px 0px 0 0;    
     width: 100%; 
 }
   
 .search-box {
-    background-color: rgba(0,0,0,.005);
+    background-color: $search-box-background-color;
     font-size: 1em;
     border: 0;
     width: 100%;   

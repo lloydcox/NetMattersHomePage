@@ -3,12 +3,12 @@
 /* ----------Banner Section ---------------*/
 
 .banner-container {
-    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 0.99)),url("../Imgs/home.jpg");
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/home10.png');
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-    color: white;
+    color: $color-white;
     display: flex;              
     flex-direction: column;     
     justify-content: center;    
@@ -32,7 +32,7 @@
     }
 
     .more-button {
-        background-color: #926fb1;
+        background-color: $color-purple;
         padding: 10px 20px;
         border-radius: 3px;
         margin: 10px 0;
@@ -43,7 +43,7 @@
 
 .middle {
     display: block;
-    background-color: #f5f5f5af;
+    background-color: $acontainer-color;
 }
 
 .container {    
@@ -82,7 +82,7 @@
     flex: 1;
     position: relative; 
     min-height: 1px; 
-    background-color: white;
+    background-color: $color-white;
     border: 1px solid #ccc;
     font-size: 0.8em;
     padding: 10px 10px 25px;
@@ -104,7 +104,7 @@ div.h2:after {
     width: 40px;
     height: 3px;
     display: block;
-    background-color: #333645;
+    background-color: $background-color-dark-grey;
 }
 
 .card {  
@@ -114,146 +114,146 @@ div.h2:after {
 }
 
 .icon {
-    color: white;
+    color: $color-white;
     font-size: 1.438rem;
 }
 
 .cardbs:hover {
-    background-color: #67809f;
-    color: white;
+    background-color: $color-grey;
+    color: $color-white;
     .fas1 {
-        background-color: white;
-        color: #67809f;
+        background-color: $color-white;
+        color: $color-grey;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c1button {
-        color: #67809f;
-        background-color: white;
+        color: $color-grey;
+        background-color: $color-white;
     }
 }
 
 .cardis:hover {
-    background-color: #4183d7;
-    color: white;
+    background-color: $color-blue;
+    color: $color-white;
     .fas2 {
-        background-color: white;
-        color: #4183d7;
+        background-color: $color-white;
+        color: $color-blue;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c2button {
-        color: #4183d7;
-        background-color: white;
+        color: $color-blue;
+        background-color: $color-white;
     }
 }
 
 .carddm:hover {
-    background-color: #2ecc71;
-    color: white;
+    background-color: $color-green;
+    color: $color-white;
     .fas3 {
-        background-color: white;
-        color: #2ecc71;
+        background-color: $color-white;
+        color: $color-green;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c3button {
-        color: #2ecc71;
-        background-color: white;
+        color: $color-green;
+        background-color: $color-white;
     }
 }
 
 .cardts:hover {
-    background-color: #d64541;
-    color: white;
+    background-color: $color-red-2;
+    color: $color-white;
     .fas4 {
-        background-color: white;
-        color: #d64541;
+        background-color: $color-white;
+        color: $color-red-2;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c4button {
-        color: #d64541;
-        background-color: white;
+        color: $color-red-2;
+        background-color: $color-white;
     }
 }
 
 .cardwd:hover {
-    background-color: #926fb1;
-    color: white;
+    background-color: $color-purple;
+    color: $color-white;
     .fas5 {
-        background-color: white;
-        color: #926fb1;
+        background-color: $color-white;
+        color: $color-purple;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c5button {
-        color: #926fb1;
-        background-color: white;
+        color: $color-purple;
+        background-color: $color-white;
     }
 }
 
 .cardcs:hover {
-    background-color: #f62459;
-    color: white;
+    background-color: $color-red;
+    color: $color-white;
     .fas6 {
-        background-color: white;
-        color: #f62459;
+        background-color: $color-white;
+        color: $color-red;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c6button {
-        color: #f62459;
-        background-color: white;
+        color: $color-red;
+        background-color: $color-white;
     }
 }
 
 .carddt:hover {
-    background-color: #926fb1;
-    color: white;
+    background-color: $color-purple;
+    color: $color-white;
     .fas7 {
-        background-color: white;
-        color: #926fb1;
+        background-color: $color-white;
+        color: $color-purple;
     } div.h2:after {
-        background-color: white;
+        background-color: $color-white;
     } .c7button {
-        color: #926fb1;
-        background-color: white;
+        color: $color-purple;
+        background-color: $color-white;
     }
 }
 
 .fas1 {
-   background-color: #67809f;
+   background-color: $color-grey;
    border-radius: 50%;
    padding: 15px;
    }
 
 .fas2 {
-    background-color: #4183d7;
+    background-color: $color-blue;
     border-radius: 50%;
     padding: 15px;
  }
 
  .fas3 {
-    background-color: #2ecc71;
+    background-color: $color-green;
     border-radius: 50%;
     padding: 15px;
  }
 
  .fas4 {
-    background-color: #d64541;
+    background-color: $color-red-2;
     border-radius: 50%;
     padding: 15px;
  }
 
  .fas5 {
-    background-color: #926fb1;
+    background-color: $color-purple;
     border-radius: 50%;
     padding: 15px;
  }
 
  .fas6 {
-    background-color: #f62459;
+    background-color: $color-red;
     border-radius: 50%;
     padding: 15px;
  }
 
  .fas7 {
-    background-color: #926fb1;
+    background-color: $color-purple;
     border-radius: 50%;
     padding: 15px;
  }
@@ -262,54 +262,54 @@ div.h2:after {
      font-size: 1.125em;
      text-transform: uppercase;
      font-weight: 400;
-     color: white;
+     color: $color-white;
 
  }
 
  .c1button {
-     background-color: #67809f;
+     background-color: $color-grey;
      padding: 10px 20px;
      border-radius: 3px;
      margin: 10px 0;
  }
 
  .c2button {
-    background-color: #4183d7;
+    background-color: $color-blue;
     padding: 10px 20px;
     border-radius: 3px;
     margin: 10px 0;
 }
 
 .c3button {
-    background-color: #2ecc71 ;
+    background-color: $color-green ;
     padding: 10px 20px;
     border-radius: 3px;
     margin: 10px 0;
 }
 
 .c4button {
-    background-color: #d64541;
+    background-color: $color-red-2;
     padding: 10px 20px;
     border-radius: 3px;
     margin: 10px 0;
 }
 
 .c5button {
-    background-color: #926fb1;
+    background-color: $color-purple;
     padding: 10px 20px;
     border-radius: 3px;
     margin: 10px 0;
 }
 
 .c6button {
-    background-color: #f62459;
+    background-color: $color-red;
     padding: 10px 20px;
     border-radius: 3px;
     margin: 10px 0;
 }
 
 .c7button {
-    background-color: #926fb1;
+    background-color: $color-purple;
     padding: 10px 20px;
     border-radius: 3px;
     margin: 10px 0;

@@ -8,7 +8,7 @@ body {
 font-family: Poppins,sans-serif;
 font-size: 1rem;
 letter-spacing: .4px;
-color: #666;
+color: $body-color;
 margin: 0;
 }
 
@@ -22,7 +22,7 @@ button {
     padding: 0;
     border: none;
     font: inherit;
-    color: white;
+    color: $color-white;
     background-color: inherit  
 }
 

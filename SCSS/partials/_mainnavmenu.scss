@@ -10,13 +10,13 @@
 .main-nav {    
     position: relative;
     list-style-type: none;    
-    background-color: #333645; 
+    background-color: $background-color-dark-grey; 
 }
 
 .ul-container {
     display: inline-flex;
     flex-direction: row;
-    color: white;
+    color: $color-white;
     list-style-type: none;
     width: 100%;
     justify-content: center;
@@ -24,51 +24,55 @@
     li {
         display: flex;
         flex-direction: column;
-        color: white;
+        color: $color-white;
         text-transform: uppercase;
             a {
-            color: white;  
+            color: $color-white;  
             text-decoration: none; 
             width: 100%;
         }                
     }
 }
 
+.nav-men {
+    padding: 5px 0 5px;
+}
+
 .men-but {
     flex-basis: 20%;
     display: flex;
-    border-right: 1px solid hsla(0,0%,100%,.1);
-    border-left: 1px solid rgba(0,0,0,.25); 
+    border-right: 1px solid $men-but-border-right;
+    border-left: 1px solid $men-but-border-left; 
 }
 
 
 .fas-1 {
-    color: #926fb1;
+    color: $color-purple;
     border-radius: 50%;
 }
 
 .fas-2 {
-    color: #4183d7;
+    color: $color-blue;
     border-radius: 50%;
  }
 
  .fas-3 {
-    color: #f62459;
+    color: $color-red;
     border-radius: 50%;
  }
 
  .fas-4 {
-    color: #67809f;
+    color: $color-grey;
     border-radius: 50%;
  }
 
  .fas-5 {
-    color: #2ecc71;
+    color: $color-green;
     border-radius: 50%;
  }
 
  .fas-6 {
-    color: #f62459;
+    color: $color-red;
     border-radius: 50%;
  }
 
@@ -114,8 +118,7 @@
 #services-list-ts,
 #services-list-bs,
 #services-list-dm,
-#services-list-cs
- {
+#services-list-cs {   
     visibility: hidden;
     position: absolute;
     z-index: 1;
@@ -138,97 +141,98 @@
 }
 
 .services-list-wd {
-    background-color: #79539a;
+    background-color: $background-color-purple;
 }
 
 .services-list-it {
-    background-color: #286abd
+    background-color: $background-color-blue;
 }
 
 .services-list-ts {
-    background-color: #bc2c28;
+    background-color: $background-color-red;
 }
 
 .services-list-bs {
-    background-color: #526781;
+    background-color: $background-color-grey;
 }
 
 .services-list-dm {
-    background-color: #25a25a;
+    background-color: $background-color-green;
 }
 
 .services-list-cs {
-    background-color: #de093f;
+    background-color: $background-color-red-2;
 }
 
-#nav-men-wd:hover ~ #services-list-wd {
+#web-dev:hover > ul {
+    display: block;
    visibility: visible;
 }
 
-#nav-men-is:hover ~ #services-list-it {
+#it-sup:hover > ul {
     visibility: visible;
- }
+}
 
- #nav-men-ts:hover ~ #services-list-ts {
+#tel-ser:hover > ul {
     visibility: visible;
- }
+}
 
- #nav-men-bs:hover ~ #services-list-bs {
+#bes-sof:hover > ul {
     visibility: visible;
- }
+}
 
- #nav-men-dm:hover ~ #services-list-dm {
+#dig-mar:hover > ul {
     visibility: visible;
- }
+}
 
- #nav-men-cs:hover ~ #services-list-cs {
+#cyb-sec:hover > ul {
     visibility: visible;
- }
+}
 
 #web-dev:hover {
-    background-color: #926fb1;
+    background-color: $color-purple;
     list-style-type: none;
     .fas-1 {
-    color: white;
+    color: $color-white;
     }
 }
 
 #it-sup:hover {
-    background-color: #4183d7;
+    background-color: $color-blue;
     list-style-type: none;
     .fas-2 {
-        color: white;
+        color: $color-white;
         }
 }
 
 #tel-ser:hover {
-    background-color: #d64541;;
+    background-color: $color-red-2;
     list-style-type: none;
     .fas-3 {
-        color: white;
+        color: $color-white;
         }
 }
 
 #bes-sof:hover {
-    background-color: #67809f;
+    background-color: $color-grey;
     list-style-type: none;
     .fas-4 {
-        color: white;
+        color: $color-white;
         }
 }
 
 #dig-mar:hover {
-    background-color: #2ecc71;
+    background-color: $color-green;
     list-style-type: none;
     .fas-5 {
-        color: white;
+        color: $color-white;
         }
 }
 
 #cyb-sec:hover {
-    background-color: #f62459;;
+    background-color: $color-red;;
     list-style-type: none;
     .fas-6 {
-        color: white;
+        color: $color-white;
         }
 }

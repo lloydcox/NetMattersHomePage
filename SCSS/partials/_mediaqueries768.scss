@@ -39,16 +39,16 @@
 
 .search-button {  
     height: 60px;
-    background-color: #999aa2;
+    background-color: $color-light-grey;
     width: 40%;   
-    color: white;
+    color: $color-white;
 }
    
 .search-outer {   
     order: 0;   
     align-self: baseline;
     height: 60px;
-    background-color: white;
+    background-color: $color-white;
     margin: 0;
  }
     
@@ -60,7 +60,7 @@
     justify-content: center;
     height: auto;
     align-content: center;
-    border: 1px solid #333645;
+    border: 1px solid $background-color-dark-grey;
 } 
 
     /* ----------Middle Card Section ---------------*/
@@ -142,7 +142,6 @@
         img {
         max-width:100%;
         height:auto;
-        filter: saturate(0);
         margin-top: 25px;
         }
 }
@@ -150,7 +149,7 @@
 .client-description {
     visibility: hidden;
     position: relative;
-    color: white;
+    color: $color-white;
     flex-basis: 25%;
     align-items: center;
     text-align: center;
@@ -160,7 +159,7 @@
         max-width: 260px;
         max-height: 200px;
         padding: 25px;
-        background-color: #333645;
+        background-color: $background-color-dark-grey;
         bottom: 100%;       
     }
     h2 {
@@ -182,7 +181,7 @@
         height: 0;
         border-left: 50px solid transparent;
         border-right: 50px solid transparent;
-        border-top: 50px solid #333645;
+        border-top: 50px solid $background-color-dark-grey;
         margin-left: -50px;  
     }
 }
@@ -201,11 +200,44 @@
     background-color: #fff;
 }
 }
+
+.client-1, .client-2, .client-3, .client-4 {
+    display: none;
+}
+
 /* -------- Hover text appears ---- */
-    
-.client img:hover {
-    filter: saturate(1);
- }
+ 
+.client:hover .client1 {
+    display: none;
+}
+
+.client:hover .client-1 {
+    display: block;
+}
+
+.client:hover .client2 {
+    display: none;
+}
+
+.client:hover .client-2 {
+    display: block;
+}
+
+.client:hover .client3 {
+    display: none;
+}
+
+.client:hover .client-3 {
+    display: inline;
+}
+
+.client:hover .client4 {
+    display: none;
+}
+
+.client:hover .client-4 {
+    display: block;
+}
 
   
 .client:hover .client-description {
@@ -215,8 +247,8 @@
     
 /* -------- footer -------- */
 .footer {
-    background-color: #333645;
-    color: white;
+    background-color: $background-color-dark-grey;
+    color: $color-white;
 }
     
 .cols1 {
@@ -224,31 +256,31 @@
     flex-wrap: wrap;
     justify-content: space-around;
         p { 
-            color: white;
+            color: $color-white;
             font-size: 0.85em;
     }
 }
     
 .col-1, .col-2, .col-3 {
     width: 35%;
-    color: white;
+    color: $color-white;
         li {
            list-style-type: none;
         }
         a {
-           color: white;
+           color: $color-white;
         }
 }
     
 .col-4 {
     width: 35%;
-    color: white;
+    color: $color-white;
     justify-content: flex-start;
         li {
             list-style-type: none;
         }
         a {
-            color: white;
+            color: $color-white;
         }
 }
     
@@ -259,8 +291,8 @@
     
 .col-xs {
     width: 43%;
-    background: #121419;
-    color: white;
+    background: $color-dark-dark-grey;
+    color: $color-white;
     margin: 15px 15px 15px 0;
 }
     
@@ -287,19 +319,42 @@
 .partner {
     margin: 20px 0px;  
     flex: 0 0 auto; 
-    img {
-    filter: saturate(0);
-    } 
 }
     
-.partner1 {
-    img {
-    max-width:90%;
-    }
+.partner-1, .partner-3, .partner-4, .partner-5{
+    display: none;
 }
-           
-    .partner img:hover {
-    filter: saturate(1);
+ 
+.partner:hover .partner1 {
+    display: none;
+}
+
+.partner:hover .partner-1 {
+    display: inline;
+}
+
+.partner:hover .partner3 {
+    display: none;
+}
+
+.partner:hover .partner-3 {
+    display: inline;
+}
+
+.partner:hover .partner4 {
+    display: none;
+}
+
+.partner:hover .partner-4 {
+    display: block;
+}
+
+.partner:hover .partner5 {
+    display: none;
+}
+
+.partner:hover .partner-5 {
+    display: block;
 }
 
 }

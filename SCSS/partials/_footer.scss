@@ -9,8 +9,8 @@
 /* -------- footer -------- */
 .footer {
     padding-top: 20px;
-    background-color: #333645;
-    color: white;
+    background-color: $background-color-dark-grey;
+    color: $color-white;
     font-size: .8em;
     h3 {
         font-size: 1.25em;
@@ -21,47 +21,47 @@
 .cols1 {
     display: block;
         p { 
-         color: white;
+         color: $color-white;
 }
 }
 
 .col-1 {
-    color: white;
+    color: $color-white;
     li {
         list-style-type: none;
     }
     a {
-        color: white;
+        color: $color-white;
     }
 }
 
 .col-2 {
-    color: white;
+    color: $color-white;
     li {
         list-style-type: none;
     }
     a {
-        color: white;
+        color: $color-white;
     }
 }
 
 .col-3 {
-    color: white;
+    color: $color-white;
     li {
         list-style-type: none;
     }
     a {
-        color: white;
+        color: $color-white;
     }
 }
 
 .col-4 {
-    color: white;
+    color: $color-white;
     li {
         list-style-type: none;
     }
     a {
-        color: white;
+        color: $color-white;
     }
 }
 
@@ -81,22 +81,22 @@
     display: flex;
     width: 40%;
     padding: 10px 0;
-    background: #121419;
-    color: white;
+    background: $color-dark-dark-grey;
+    color: $color-white;
     margin: 25px 25px 25px 0;
     justify-content: center;
 }
 
 .col-fb:hover {    
-    background: #3b5998;
+    background: $facebook-color;
 }
 
 .col-tw:hover {    
-    background: #00aced;
+    background: $twitter-color;
 }
 
 .col-li:hover {    
-    background: #0077b5;
+    background: $linkedin-color;
 }
 
 /* ----- Partners ----- */
