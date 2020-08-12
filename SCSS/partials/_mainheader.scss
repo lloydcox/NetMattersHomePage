@@ -73,6 +73,32 @@
     align-items: center;
 } 
 
+.m-button-1 {
+    padding: 3px 5px;
+    background-color: $background-color-dark-grey;
+    border-radius: 5px;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+} 
+
+#content {
+    display: none;
+}
+#show:target #content {
+    display: inline-block;
+}
+#show:target #showRightPush {
+    display: none;
+}
+// #show:target #content {
+//     display: none;
+// }
+// #show:target #showRightPush {
+//     display: flex;
+// }
 
 .search-button {   
     align-self: center;    

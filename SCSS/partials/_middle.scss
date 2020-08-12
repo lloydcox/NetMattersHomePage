@@ -3,7 +3,7 @@
 /* ----------Banner Section ---------------*/
 
 .banner-container {
-    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/home10.png');
+
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,29 +15,134 @@
     align-items: center;         
 }
 
+.background-1 {
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/home10.png');
+}
+
+.background-2 {
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/it-banner.jpg');
+}
+
+.background-3 {
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/tele-banner.jpg');
+}
+
+.background-4 {
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/bespoke-banner.jpg');
+}
+
+.background-5 {
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/digital-banner.jpg');
+}
+
+.background-6 {
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/cyber-banner.jpg');
+}
+
 .banner-content {
     display: flex;
     justify-content: center;
+    margin-top: 15vh;
 }
+
 .banner-text {
     width: 400px;
     margin: 5px;
     text-align: center;
     h2 {
+        white-space: nowrap;
         font-size: 3em;
         font-weight: 400;
     }
     p {
+        text-align: start;
         font-size: 1.5em;
+        white-space: nowrap;
     }
 
-    .more-button {
-        background-color: $color-purple;
-        padding: 10px 20px;
+    .more-button-1 {
+        background-color: $find-more-button-1;
+        padding: 5px 20px;
         border-radius: 3px;
         margin: 10px 0;
+        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+    }
+
+    .more-button-2 {
+        background-color: $find-more-button-2;
+        padding: 5px 20px;
+        border-radius: 3px;
+        margin: 10px 0;
+        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+    }
+
+    .more-button-3 {
+        background-color: $find-more-button-3;
+        padding: 5px 20px;
+        border-radius: 3px;
+        margin: 10px 0;
+        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+    }
+
+    .more-button-4 {
+        background-color: $find-more-button-4;
+        padding: 5px 20px;
+        border-radius: 3px;
+        margin: 10px 0;
+        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+    }
+
+    .more-button-5 {
+        background-color: $find-more-button-5;
+        padding: 5px 20px;
+        border-radius: 3px;
+        margin: 10px 0;
+        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+    }
+
+    .more-button-6 {
+        background-color: $find-more-button-6;
+        padding: 5px 20px;
+        border-radius: 3px;
+        margin: 10px 0;
+        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 0.4px;
     }
 }
+
+.slick-dots {
+    top: 70vh;  
+}
+.slick-dots li button:before {
+    font-size: 11px;
+    line-height: 20px;
+    color:$color-white !important;
+    padding: 3px;
+    position: unset;
+    text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+    color:$color-white !important;
+    border: solid 2px $color-white;
+    border-radius: 30px;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
 
 /* ----------Middle Card Section ---------------*/
 

@@ -1,0 +1,201 @@
+.cbp-spmenu {
+	background: $background-color-dark-grey;
+    position: fixed;
+    border-top: 1px solid rgba(0,0,0,.25);
+}
+
+.sb-heading {
+    list-style: none;
+    border-top: 1px solid hsla(0,0%,100%,.1);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.cbp-spmenu li a {
+    display: block;
+	color: $color-white;
+	font-size: 16px;
+	margin: 0;
+	font-weight: 300;
+    text-align: left;
+    padding: 20px;
+}
+
+.sb-heading li a {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+    font-weight: 300;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(0,0,0,.45);
+    background-color: rgba(0,0,0,.25);
+}
+
+.sb-heading li a:before {
+    content: "\BB";
+    padding-right: 15px;
+}
+
+// Side nav bar 
+
+.nav-container-2 {
+    display: flex;
+    flex-direction: column;
+    color: $color-white;
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    li {
+        display: flex;
+        flex-direction: column;
+        color: $color-white;
+        text-transform: uppercase;
+            a {
+            color: $color-white;  
+            text-decoration: none; 
+            width: 100%;
+        }                
+    }
+}
+
+.container2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: inherit;
+    margin: 20px 0 0;
+    .sb-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .sb-li {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            a {
+                text-align: center;
+                display: contents;
+            } 
+        }
+    }
+}
+
+.sb-sl-men {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    li {
+        display: flex;
+        align-items: center;
+        width: 100%;    
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: rgba(0,0,0,.25); 
+        a {
+            text-align: center;
+        }  
+    }
+}
+
+.sb-contact {
+    padding: 20px;
+}
+
+.sb-serv {
+    padding: 15px 0;
+}
+
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 350px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	padding: 1em;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-right {
+	right: -350px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+// Side bar scroll 
+
+.sidebar:hover {
+    overflow: scroll;
+ } 
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		top: -110px;
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}
