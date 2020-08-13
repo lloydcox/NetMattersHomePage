@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>GRT Cookie Consent for GDPR Law - jQuery Plugin</title>
+	<meta name="description" content="GRT Cookie Consent for GDPR Law - jQuery Plugin">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<!-- Demo CSS file not needed for the plugin -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css-demo-page.css">
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="grt-cookies-consent.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+	<div class="demo-page-container">
+
+		<h1>GRT Cookie Consent Plugin Examples</h1>
+		<div id="carbon-block" style="margin:30px auto"></div><script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+<div style="margin:30px auto"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		<p class="header-par">GRT Cookie Consent is a super tiny jQuery plugin to make your website comply with the GDPR and EU cookie law.</p>
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis erat et mi fermentum eleifend et in augue. Vivamus et bibendum mauris. Fusce id varius urna, et pharetra elit. Nam eu leo eget velit bibendum commodo. Aenean nisi orci, posuere quis euismod in, efficitur bibendum massa. Vivamus at bibendum eros, eu elementum elit. Mauris augue velit, suscipit in tellus eu, rhoncus bibendum libero. Suspendisse potenti. Aliquam dolor eros, dignissim malesuada porta eu, laoreet quis leo. Nunc quis dictum diam. Sed eget lorem vitae enim dignissim pretium. Integer imperdiet sit amet erat in commodo. Aliquam sit amet mi augue. Pellentesque eget leo imperdiet, fringilla ipsum quis, interdum ligula. Aliquam fringilla rhoncus ex et sollicitudin.</p>
+
+
+		<p>Quisque nec lorem tristique, ultrices enim sed, porttitor arcu. Ut ipsum nulla, tempus vitae dapibus sed, sodales vitae enim. Integer nec dignissim erat. Pellentesque quis pretium purus. Nullam facilisis metus et augue fermentum, a ornare lectus cursus. Nunc molestie quam nulla, sit amet ullamcorper urna luctus a. Etiam eu metus nibh. Nullam nibh massa, euismod quis semper dictum, maximus id sem. Quisque porttitor mauris eget eleifend commodo.</p>
+
+		<p>Praesent eu ligula finibus, aliquet orci blandit, imperdiet odio. Duis mattis ex rutrum tristique auctor. Praesent molestie, nisi vel gravida rutrum, nisi urna fringilla nisl, vel venenatis purus ante eget leo. Vivamus tellus velit, porta a felis at, tincidunt facilisis ipsum. Quisque viverra felis porttitor lectus dictum, quis facilisis est tristique. Etiam gravida ante a odio fermentum mollis. Nullam ac sagittis urna, et facilisis eros. Vivamus eleifend elit quis libero cursus faucibus. Nullam iaculis, justo in bibendum mollis, ante odio sollicitudin nulla, nec mattis purus libero quis nunc.</p>
+
+		<p>Proin facilisis, quam eu interdum sagittis, libero sem eleifend purus, quis lacinia massa tortor id turpis. Praesent at nisi non magna sagittis dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vel turpis cursus dui ullamcorper tempus. Sed at lacinia ex. Maecenas fringilla pulvinar mauris, eu efficitur magna mollis nec. Donec aliquet condimentum velit, eu interdum eros imperdiet mattis. Proin blandit mi suscipit velit tempus eleifend et eget leo.</p>
+
+		<p>Vivamus tortor sapien, sodales non quam nec, mattis porta tortor. Sed tristique risus velit, eget bibendum libero facilisis sit amet. Pellentesque ut suscipit urna, eget dictum urna. Etiam ac lacus leo. Nam laoreet sodales commodo. Nullam nec elementum enim, sed faucibus ex. Sed consectetur in diam accumsan tincidunt. Praesent bibendum enim elit, id euismod arcu egestas ultrices.</p>
+
+	</div>
+
+	<div class="grt-cookie">
+		<div class="grt-cookies-msg">
+			<p>
+				We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our <a href="">Privacy Policy</a>, and our <a href="">Terms of Service</a>.
+			</p>
+		</div>
+		<span class="grt-cookie-button">Accept</span>
+	</div>
+
+	<!-- Jquery  -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<!-- GRT Cookie Consent Plugin -->
+	<script src="grt-cookie-consent.js"></script>
+
+	<script>
+		// Start the plugin with defalt settings
+		// $(".grt-cookies").grtCookie();
+
+		// Custom Settings
+		$(".grt-cookie").grtCookie({
+			// Main text and background color
+			textcolor: "#333",
+			background: "#FFCD69",
+			// Button colors
+			buttonbackground: "#c40b14",
+			buttontextcolor: "#fff",
+			// Duration in days
+			duration: 365,
+		});
+	</script>
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
