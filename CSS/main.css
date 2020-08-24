@@ -55,25 +55,26 @@ a {
 /* -------- MAIN HEADER ------*/
 /* line 6, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .main-header {
+  background-color: #fff;
   display: flex;
   width: 100%;
   padding-top: 20px;
 }
 
-/* line 12, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 13, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .row {
   display: flex;
   width: 100%;
   margin-bottom: 10px;
 }
 
-/* line 18, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 19, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .container-h {
   display: flex;
   justify-content: center;
 }
 
-/* line 23, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 24, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .row-menu {
   width: 100%;
   display: inline-flex;
@@ -82,25 +83,25 @@ a {
   align-content: space-around;
 }
 
-/* line 31, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 32, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .chat_button_img {
   display: none;
 }
 
-/* line 35, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 36, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .logo-row {
   display: flex;
   flex-grow: 1;
   width: 50%;
 }
 
-/* line 41, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 42, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .logo_img {
   width: 100%;
   height: auto;
 }
 
-/* line 46, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 47, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .button-row {
   display: inline-flex;
   align-items: center;
@@ -109,21 +110,22 @@ a {
   margin-top: 10px;
 }
 
-/* line 54, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 55, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .ssrow {
   display: flex;
   flex-grow: 1;
 }
 
-/* line 59, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 60, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .icon-row {
   display: inline-flex;
   justify-content: flex-end;
   flex-grow: 1;
 }
 
-/* line 65, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 66, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .m_button {
+  display: none;
   padding: 3px 5px;
   background-color: #333645;
   border-radius: 5px;
@@ -134,8 +136,14 @@ a {
   align-items: center;
 }
 
-/* line 76, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 78, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+.m_button:active .m_button_1 {
+  display: flex;
+}
+
+/* line 82, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .m_button_1 {
+  display: none;
   padding: 3px 5px;
   background-color: #333645;
   border-radius: 5px;
@@ -146,22 +154,17 @@ a {
   align-items: center;
 }
 
-/* line 87, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
-#content {
-  display: none;
+/* line 94, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+m.m_button_1:active .m_button {
+  display: flex;
 }
 
-/* line 90, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
-#show:target #content {
-  display: inline-block;
+/* line 98, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+#showRightPush:focus #crossRightPush {
+  display: flex;
 }
 
-/* line 93, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
-#show:target #showRightPush {
-  display: none;
-}
-
-/* line 103, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 102, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .search-button {
   align-self: center;
   font-size: 1.25em;
@@ -174,7 +177,7 @@ a {
   border-right: 2px solid #ccc;
 }
 
-/* line 115, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 114, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .fa-phone-volume {
   padding: 10px;
   color: #333645;
@@ -183,17 +186,17 @@ a {
   margin-right: auto;
 }
 
-/* line 123, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 122, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .sbutton {
   display: none;
 }
 
-/* line 127, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 126, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .cbutton {
   display: none;
 }
 
-/* line 131, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 130, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .search-outer {
   display: flex;
   flex-wrap: nowrap;
@@ -203,7 +206,7 @@ a {
   order: 1;
 }
 
-/* line 140, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 139, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .search-container {
   display: inline-flex;
   border-top: 2px solid #ccc;
@@ -213,7 +216,7 @@ a {
   width: 100%;
 }
 
-/* line 149, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
+/* line 148, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_mainheader.scss */
 .search-box {
   background-color: rgba(0, 0, 0, 0.005);
   font-size: 1em;
@@ -1252,6 +1255,11 @@ a {
 
 /* ----------Banner Section ---------------*/
 /* line 5, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+.banner-carousel {
+  padding-top: 190px;
+}
+
+/* line 9, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-container {
   width: 100%;
   background-repeat: no-repeat;
@@ -1264,65 +1272,65 @@ a {
   align-items: center;
 }
 
-/* line 18, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 21, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .background-1 {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.767)), url("../Imgs/home10.png");
 }
 
-/* line 22, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 25, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .background-2 {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.767)), url("../Imgs/it-banner.jpg");
 }
 
-/* line 26, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 29, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .background-3 {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.767)), url("../Imgs/tele-banner.jpg");
 }
 
-/* line 30, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 33, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .background-4 {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.767)), url("../Imgs/bespoke-banner.jpg");
 }
 
-/* line 34, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 37, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .background-5 {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.767)), url("../Imgs/digital-banner.jpg");
 }
 
-/* line 38, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 41, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .background-6 {
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.767)), url("../Imgs/cyber-banner.jpg");
 }
 
-/* line 42, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 45, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-content {
   display: flex;
   justify-content: center;
   margin-top: 15vh;
 }
 
-/* line 48, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 51, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text {
   width: 400px;
   margin: 5px;
   text-align: center;
 }
 
-/* line 52, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 55, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text h2 {
   white-space: nowrap;
   font-size: 3em;
   font-weight: 400;
 }
 
-/* line 57, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 60, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text p {
   text-align: start;
   font-size: 1.5em;
   white-space: nowrap;
 }
 
-/* line 63, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 66, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text .more-button-1 {
   background-color: #7e57a0;
   padding: 5px 20px;
@@ -1333,7 +1341,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 73, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 76, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text .more-button-2 {
   background-color: #2a6ec6;
   padding: 5px 20px;
@@ -1344,7 +1352,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 83, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 86, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text .more-button-3 {
   background-color: #c42e2a;
   padding: 5px 20px;
@@ -1355,7 +1363,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 93, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 96, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text .more-button-4 {
   background-color: #566c88;
   padding: 5px 20px;
@@ -1366,7 +1374,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 103, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 106, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text .more-button-5 {
   background-color: #26ab5f;
   padding: 5px 20px;
@@ -1377,7 +1385,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 113, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 116, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .banner-text .more-button-6 {
   background-color: #e80a42;
   padding: 5px 20px;
@@ -1388,12 +1396,12 @@ a {
   letter-spacing: 0.4px;
 }
 
-/* line 124, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 127, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .slick-dots {
   top: 70vh;
 }
 
-/* line 127, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 130, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .slick-dots li button:before {
   font-size: 11px;
   line-height: 20px;
@@ -1403,38 +1411,38 @@ a {
   text-align: center;
 }
 
-/* line 136, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 139, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .slick-dots li.slick-active button:before {
   color: #fff !important;
   border: solid 2px #fff;
   border-radius: 30px;
 }
 
-/* line 142, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 145, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .slick-dotted.slick-slider {
   margin-bottom: 0;
 }
 
 /* ----------Middle Card Section ---------------*/
-/* line 149, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 152, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .middle {
   display: block;
   background-color: #f5f5f5af;
 }
 
-/* line 154, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 157, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .container {
   display: block;
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 160, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 163, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cards {
-  padding: 20px;
+  padding: 5px;
 }
 
-/* line 164, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 167, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .card1,
 .card2,
 .card3,
@@ -1447,12 +1455,12 @@ a {
   padding: 15px;
 }
 
-/* line 176, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 179, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .services {
   display: contents;
 }
 
-/* line 180, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 183, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs,
 .cardis,
 .carddm,
@@ -1466,10 +1474,10 @@ a {
   background-color: #fff;
   border: 1px solid #ccc;
   font-size: 0.8em;
-  padding: 10px 10px 25px;
+  padding: 25px;
 }
 
-/* line 194, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 197, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs h2,
 .cardis h2,
 .carddm h2,
@@ -1481,7 +1489,7 @@ a {
   font-weight: 400;
 }
 
-/* line 198, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 201, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs p,
 .cardis p,
 .carddm p,
@@ -1492,7 +1500,7 @@ a {
   margin: 30px 10px 20px;
 }
 
-/* line 203, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 206, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 div.h2:after {
   content: "";
   position: absolute;
@@ -1505,228 +1513,228 @@ div.h2:after {
   background-color: #333645;
 }
 
-/* line 216, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 219, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .card a:visited {
   color: inherit;
 }
 
-/* line 221, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 224, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .icon {
   color: #fff;
   font-size: 1.438rem;
 }
 
-/* line 226, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 229, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs:hover {
   background-color: #67809f;
   color: #fff;
 }
 
-/* line 229, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 232, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs:hover .fas1 {
   background-color: #fff;
   color: #67809f;
 }
 
-/* line 232, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 235, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 234, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 237, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardbs:hover .c1button {
   color: #67809f;
   background-color: #fff;
 }
 
-/* line 240, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 243, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardis:hover {
   background-color: #4183d7;
   color: #fff;
 }
 
-/* line 243, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 246, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardis:hover .fas2 {
   background-color: #fff;
   color: #4183d7;
 }
 
-/* line 246, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 249, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardis:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 248, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 251, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardis:hover .c2button {
   color: #4183d7;
   background-color: #fff;
 }
 
-/* line 254, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 257, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddm:hover {
   background-color: #2ecc71;
   color: #fff;
 }
 
-/* line 257, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 260, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddm:hover .fas3 {
   background-color: #fff;
   color: #2ecc71;
 }
 
-/* line 260, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 263, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddm:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 262, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 265, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddm:hover .c3button {
   color: #2ecc71;
   background-color: #fff;
 }
 
-/* line 268, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 271, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardts:hover {
   background-color: #d64541;
   color: #fff;
 }
 
-/* line 271, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 274, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardts:hover .fas4 {
   background-color: #fff;
   color: #d64541;
 }
 
-/* line 274, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 277, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardts:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 276, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 279, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardts:hover .c4button {
   color: #d64541;
   background-color: #fff;
 }
 
-/* line 282, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 285, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardwd:hover {
   background-color: #926fb1;
   color: #fff;
 }
 
-/* line 285, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 288, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardwd:hover .fas5 {
   background-color: #fff;
   color: #926fb1;
 }
 
-/* line 288, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 291, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardwd:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 290, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 293, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardwd:hover .c5button {
   color: #926fb1;
   background-color: #fff;
 }
 
-/* line 296, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 299, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardcs:hover {
   background-color: #f62459;
   color: #fff;
 }
 
-/* line 299, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 302, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardcs:hover .fas6 {
   background-color: #fff;
   color: #f62459;
 }
 
-/* line 302, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 305, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardcs:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 304, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 307, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .cardcs:hover .c6button {
   color: #f62459;
   background-color: #fff;
 }
 
-/* line 310, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 313, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddt:hover {
   background-color: #926fb1;
   color: #fff;
 }
 
-/* line 313, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 316, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddt:hover .fas7 {
   background-color: #fff;
   color: #926fb1;
 }
 
-/* line 316, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 319, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddt:hover div.h2:after {
   background-color: #fff;
 }
 
-/* line 318, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 321, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .carddt:hover .c7button {
   color: #926fb1;
   background-color: #fff;
 }
 
-/* line 324, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 327, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas1 {
   background-color: #67809f;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 330, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 333, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas2 {
   background-color: #4183d7;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 336, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 339, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas3 {
   background-color: #2ecc71;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 342, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 345, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas4 {
   background-color: #d64541;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 348, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 351, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas5 {
   background-color: #926fb1;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 354, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 357, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas6 {
   background-color: #f62459;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 360, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 363, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .fas7 {
   background-color: #926fb1;
   border-radius: 50%;
   padding: 15px;
 }
 
-/* line 366, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 369, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .buttonc {
   font-size: 1.125em;
   text-transform: uppercase;
@@ -1734,7 +1742,7 @@ div.h2:after {
   color: #fff;
 }
 
-/* line 374, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 377, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c1button {
   background-color: #67809f;
   padding: 10px 20px;
@@ -1742,7 +1750,7 @@ div.h2:after {
   margin: 10px 0;
 }
 
-/* line 381, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 384, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c2button {
   background-color: #4183d7;
   padding: 10px 20px;
@@ -1750,7 +1758,7 @@ div.h2:after {
   margin: 10px 0;
 }
 
-/* line 388, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 391, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c3button {
   background-color: #2ecc71;
   padding: 10px 20px;
@@ -1758,7 +1766,7 @@ div.h2:after {
   margin: 10px 0;
 }
 
-/* line 395, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 398, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c4button {
   background-color: #d64541;
   padding: 10px 20px;
@@ -1766,7 +1774,7 @@ div.h2:after {
   margin: 10px 0;
 }
 
-/* line 402, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 405, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c5button {
   background-color: #926fb1;
   padding: 10px 20px;
@@ -1774,7 +1782,7 @@ div.h2:after {
   margin: 10px 0;
 }
 
-/* line 409, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 412, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c6button {
   background-color: #f62459;
   padding: 10px 20px;
@@ -1782,7 +1790,7 @@ div.h2:after {
   margin: 10px 0;
 }
 
-/* line 416, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
+/* line 419, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_middle.scss */
 .c7button {
   background-color: #926fb1;
   padding: 10px 20px;
@@ -2532,16 +2540,17 @@ div.h2:after {
   position: fixed;
   border-top: 1px solid rgba(0, 0, 0, 0.25);
   overflow: scroll;
+  z-index: 999999;
 }
 
-/* line 8, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 9, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-heading {
   list-style: none;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-/* line 14, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 15, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu li a {
   display: block;
   color: #fff;
@@ -2552,7 +2561,7 @@ div.h2:after {
   padding: 20px;
 }
 
-/* line 24, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 25, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-heading li a {
   display: block;
   color: #fff;
@@ -2563,13 +2572,13 @@ div.h2:after {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 34, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 35, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-heading li a:before {
   content: "\BB";
   padding-right: 15px;
 }
 
-/* line 41, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 42, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .nav-container-2 {
   display: flex;
   flex-direction: column;
@@ -2580,7 +2589,7 @@ div.h2:after {
   align-items: center;
 }
 
-/* line 49, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 50, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .nav-container-2 li {
   display: flex;
   flex-direction: column;
@@ -2588,14 +2597,14 @@ div.h2:after {
   text-transform: uppercase;
 }
 
-/* line 54, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 55, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .nav-container-2 li a {
   color: #fff;
   text-decoration: none;
   width: 100%;
 }
 
-/* line 62, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 63, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .container2 {
   width: 90%;
   display: flex;
@@ -2605,7 +2614,7 @@ div.h2:after {
   margin: 20px 0 0;
 }
 
-/* line 69, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 70, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .container2 .sb-ul {
   display: flex;
   flex-direction: column;
@@ -2613,7 +2622,7 @@ div.h2:after {
   width: 100%;
 }
 
-/* line 74, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 75, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .container2 .sb-ul .sb-li {
   display: flex;
   align-items: center;
@@ -2621,13 +2630,13 @@ div.h2:after {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* line 79, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 80, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .container2 .sb-ul .sb-li a {
   text-align: center;
   display: contents;
 }
 
-/* line 87, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 88, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-sl-men {
   width: 100%;
   flex-direction: column;
@@ -2635,7 +2644,7 @@ div.h2:after {
   margin-top: 20px;
 }
 
-/* line 92, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 93, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-sl-men li {
   display: flex;
   align-items: center;
@@ -2644,23 +2653,23 @@ div.h2:after {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 98, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 99, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-sl-men li a {
   text-align: center;
 }
 
-/* line 104, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 105, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-contact {
   padding: 20px;
 }
 
-/* line 108, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 109, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sb-serv {
   padding: 15px 0;
 }
 
 /* Orientation-dependent styles for the content of the menu */
-/* line 115, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 116, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu-vertical {
   width: 350px;
   height: 100%;
@@ -2668,37 +2677,37 @@ div.h2:after {
   z-index: 1000;
 }
 
-/* line 122, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 123, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu-vertical a {
   padding: 1em;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 128, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 129, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu-right {
   right: -350px;
 }
 
-/* line 132, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 133, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu-right.cbp-spmenu-open {
   right: 0px;
 }
 
 /* Push classes applied to the body */
-/* line 138, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 139, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu-push {
   overflow-x: hidden;
   position: relative;
   left: 0;
 }
 
-/* line 144, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 145, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu-push-toleft {
   left: -240px;
 }
 
 /* Transitions */
-/* line 150, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 151, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .cbp-spmenu,
 .cbp-spmenu-push {
   -webkit-transition: all 0.3s ease;
@@ -2706,47 +2715,154 @@ div.h2:after {
   transition: all 0.3s ease;
 }
 
-/* line 160, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+/* line 161, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
 .sidebar:hover {
   overflow: scroll;
 }
 
 /* Example media queries */
 @media screen and (max-width: 55.1875em) {
-  /* line 168, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 169, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-horizontal {
     font-size: 75%;
     height: 110px;
   }
-  /* line 173, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 174, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-top {
     top: -110px;
   }
-  /* line 177, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 178, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-bottom {
     bottom: -110px;
   }
 }
 
 @media screen and (max-height: 26.375em) {
-  /* line 185, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 186, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-vertical {
     font-size: 90%;
     width: 190px;
   }
-  /* line 190, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 191, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-left,
   .cbp-spmenu-push-toleft {
     left: -190px;
   }
-  /* line 195, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 196, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-right {
     right: -190px;
   }
-  /* line 199, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+  /* line 200, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
   .cbp-spmenu-push-toright {
     left: 190px;
   }
+}
+
+/* line 208, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.modal {
+  width: 600px;
+  background: #fff;
+  position: absolute;
+  top: 225px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 10px 25px #BDBDBD;
+  z-index: 400000000000000;
+}
+
+/* line 222, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.modal.show {
+  display: flex;
+}
+
+/* line 226, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.modal .cookie_buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 230, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.modal .cookie_buttons .settings_button {
+  padding: 5px 0;
+  margin: 20px 10px 20px 20px;
+  font-size: 17px;
+  line-height: 35px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  background-color: #999aa2;
+  width: 47%;
+  border-radius: 3px;
+}
+
+/* line 241, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.modal .cookie_buttons .accept_cookies {
+  margin: 20px 20px 20px 10px;
+  font-size: 17px;
+  line-height: 35px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  background-color: #926fb1;
+  width: 47%;
+  border-radius: 3px;
+}
+
+/* line 254, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.cookie_title {
+  margin: 20px;
+}
+
+/* line 256, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.cookie_title h2 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #333645;
+}
+
+/* line 262, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.cookie_text {
+  border-top: #e6e6e6 1px solid;
+  border-bottom: #e6e6e6 1PX solid;
+}
+
+/* line 265, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.cookie_text p {
+  margin: 20px;
+}
+
+/* line 270, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+#acceptCookies:hover {
+  background-color: #7e57a0;
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 3px 5px 0px inset;
+}
+
+/* line 275, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+#settings_button:hover {
+  background-color: #84858f;
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 3px 5px 0px inset;
+}
+
+/* line 280, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+#acceptCookies:focus {
+  outline: none;
+}
+
+/* line 284, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+#settings_button:focus {
+  outline: none;
+}
+
+/* line 291, ../../../Desktop/Portfolio/NMHP/NetMattersHomePage/SCSS/partials/_side_menu.scss */
+.scroll_nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
+  z-index: 9;
 }
 
 /*# sourceMappingURL=main.css.map */

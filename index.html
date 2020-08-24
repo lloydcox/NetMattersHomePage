@@ -16,19 +16,49 @@
     </head>
 
     <body class="cbp-spmenu-push">
+<!-- 
+    <div class="modal">
+        <h2> CookiePolicy</h2>
+        <p>
+            We use cookies to obtain aggregate data regarding site traffic and interaction, in order to identify user trends and obtain insights in order to continually improve our site. 
+            These cookies enable us to improve your customer experience as you use our site and help provide you with relevant online marketing.
 
-    <div class="grt-cookie">
-        <div class="grt-cookies-msg">
-          <p>
-            We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our <a href="#">Privacy Policy</a>, and our <a href="#">Terms of Service</a>.
-          </p>
+            You can see a list of the other companies who use cookies on this website, by visiting cookie settings at the bottom of each page. 
+            For full details of how we use your personal information, and your rights in relation to it, view our privacy policy. </p>
+        
+        <div>
+            <button class="settings_button">CHANGE SETTINGS</button>
+            <button class="modal_accept_button">ACCEPT COOKIES</button>
         </div>
-        <span class="grt-cookie-button">Accept</span>
+    </div> -->
+
+    <div class="modal">
+        <div class="modal_container">
+            <div class="cookie_title">
+                <h2> Cookies Policy</h2>
+            </div>
+                <div class="cookie_text">
+                    <p> We use cookies to obtain aggregate data regarding site traffic and interaction, in order to identify user trends and obtain insights in order to continually improve our site. 
+                    These cookies enable us to improve your customer experience as you use our site and help provide you with relevant online marketing.</p>
+
+                    <p>You can see a list of the other companies who use cookies on this website, by visiting cookie settings at the bottom of each page. 
+                    For full details of how we use your personal information, and your rights in relation to it, view our privacy policy. </p>
+                </div>
+                    <div class="cookie_buttons">    
+                        <button id="settings_button" class="settings_button">
+                            CHANGE SETTINGS
+                        </button>
+                            <button id="acceptCookies" class="accept_cookies">
+                                ACCEPT COOKIES
+                            </button>
+                    </div>
+        </div>
       </div>
 
     <div class="page-container">
 
         <!-- Main Header -->
+        <div id="scroll_nav" class="scroll_nav">
             <header class="main-header clearfix" id="header">
                 
                     <div class="row">
@@ -56,7 +86,8 @@
                                     <div class="icon-row">
                                             <i id="phone" class="fas fa-phone-volume fas fa-2x"></i>
                                             <button type="button" id="showRightPush" class="m_button"><i class="fas fa-bars fas fa-2x"></i><small>Menu</small></button>
-                                            <button type="button"id="crossRightPush1" class="m_button_1"><i class="fa fa-times fas fa-2x" aria-hidden="true"></i><small>Menu</small></button>
+
+                                            <button type="button" id="crossRightPush1" class="m_button_1"><i class="fa fa-times fas fa-2x" aria-hidden="true"></i><small>Menu</small></button>
                                     </div> 
                             </div>
                         </div> 
@@ -215,6 +246,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
         <!-- Side Menu-->
 

@@ -4,6 +4,7 @@
 /* -------- MAIN HEADER ------*/
 
 .main-header {
+    background-color: $color-white;
     display: flex;
     width: 100%;
     padding-top: 20px;
@@ -63,6 +64,7 @@
 }
 
 .m_button {
+    display: none;
     padding: 3px 5px;
     background-color: $background-color-dark-grey;
     border-radius: 5px;
@@ -71,9 +73,14 @@
     flex-direction: column;
     height: fit-content;
     align-items: center;
-} 
-
-.m_button_1 {
+  }
+  
+  .m_button:active .m_button_1 {
+    display: flex;
+  }
+  
+  .m_button_1 {
+    display: none;
     padding: 3px 5px;
     background-color: $background-color-dark-grey;
     border-radius: 5px;
@@ -82,23 +89,15 @@
     flex-direction: column;
     height: fit-content;
     align-items: center;
-} 
-
-#content {
-    display: none;
-}
-#show:target #content {
-    display: inline-block;
-}
-#show:target #showRightPush {
-    display: none;
-}
-// #show:target #content {
-//     display: none;
-// }
-// #show:target #showRightPush {
-//     display: flex;
-// }
+  }
+  
+  m.m_button_1:active .m_button {
+    display: flex;
+  }
+  
+  #showRightPush:focus #crossRightPush {
+    display: flex;
+  }
 
 .search-button {   
     align-self: center;    
