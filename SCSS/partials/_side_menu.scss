@@ -1,9 +1,11 @@
+// Side Menu Nav Bar 
+
 .cbp-spmenu {
 	background: $background-color-dark-grey;
     position: fixed;
     border-top: 1px solid rgba(0,0,0,.25);
     overflow: scroll;
-    z-index: 999999;
+    z-index: 99999;
 }
 
 .sb-heading {
@@ -114,7 +116,7 @@
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
-	width: 350px;
+	width: 258px;
 	height: 100%;
 	top: 0;
 	z-index: 1000;
@@ -127,7 +129,7 @@
 /* Vertical menu that slides from the left or right */
 
 .cbp-spmenu-right {
-	right: -350px;
+	right: -258px;
 }
 
 .cbp-spmenu-right.cbp-spmenu-open {
@@ -164,41 +166,66 @@
 
 /* Example media queries */
 
-@media screen and (max-width: 55.1875em){
-
-	.cbp-spmenu-horizontal {
-		font-size: 75%;
-		height: 110px;
-	}
-
-	.cbp-spmenu-top {
-		top: -110px;
-	}
-
-	.cbp-spmenu-bottom {
-		bottom: -110px;
-	}
-
-}
-
-@media screen and (max-height: 26.375em){
+@media screen and (min-width: 550px){
 
 	.cbp-spmenu-vertical {
-		font-size: 90%;
-		width: 190px;
+		font-size: 70%;
+		width: 288px;
 	}
 
 	.cbp-spmenu-left,
 	.cbp-spmenu-push-toleft {
-		left: -190px;
+		left: -288px;
 	}
 
 	.cbp-spmenu-right {
-		right: -190px;
+		right: -288px;
 	}
 
 	.cbp-spmenu-push-toright {
-		left: 190px;
+		left: 288px;
+	}
+}
+
+@media screen and (min-width: 990px){
+
+	.cbp-spmenu-vertical {
+		font-size: 100%;
+		width: 350px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -350px;
+	}
+
+	.cbp-spmenu-right {
+		right: -350px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 350px;
+	}
+}
+
+@media screen and (min-width: 1260px){
+
+	.cbp-spmenu-vertical {
+		font-size: 100%;
+		width: 400px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -400px;
+	}
+
+	.cbp-spmenu-right {
+		right: -400px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 400px;
 	}
 }
 

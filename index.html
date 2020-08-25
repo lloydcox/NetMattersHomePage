@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="JS/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="JS/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="js/cookie-consent-bar-grt/grt-cookies-consent.css"/>
+    <link href="CSS/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" type="text/css"> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
     <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
@@ -16,21 +16,6 @@
     </head>
 
     <body class="cbp-spmenu-push">
-<!-- 
-    <div class="modal">
-        <h2> CookiePolicy</h2>
-        <p>
-            We use cookies to obtain aggregate data regarding site traffic and interaction, in order to identify user trends and obtain insights in order to continually improve our site. 
-            These cookies enable us to improve your customer experience as you use our site and help provide you with relevant online marketing.
-
-            You can see a list of the other companies who use cookies on this website, by visiting cookie settings at the bottom of each page. 
-            For full details of how we use your personal information, and your rights in relation to it, view our privacy policy. </p>
-        
-        <div>
-            <button class="settings_button">CHANGE SETTINGS</button>
-            <button class="modal_accept_button">ACCEPT COOKIES</button>
-        </div>
-    </div> -->
 
     <div class="modal">
         <div class="modal_container">
@@ -85,9 +70,11 @@
                                         
                                     <div class="icon-row">
                                             <i id="phone" class="fas fa-phone-volume fas fa-2x"></i>
-                                            <button type="button" id="showRightPush" class="m_button"><i class="fas fa-bars fas fa-2x"></i><small>Menu</small></button>
-
-                                            <button type="button" id="crossRightPush1" class="m_button_1"><i class="fa fa-times fas fa-2x" aria-hidden="true"></i><small>Menu</small></button>
+                                            <button id="showRightPush" class="hamburger hamburger--collapse m_button" type="button">
+                                                <span class="hamburger-box  is-active">
+                                                  <span class="hamburger-inner"></span>
+                                                </span><small>Menu</small>
+                                              </button>                                          
                                     </div> 
                             </div>
                         </div> 
@@ -1021,7 +1008,6 @@
     <script src="JS/slick/slick.min.js"></script>
     <script src="JS/SlidePushMenus/js/classie.js"></script>
     <script src="JS/SlidePushMenus/js/modernizr.custom.js"></script>
-    <script src="js/cookie-consent-bar-grt/grt-cookie-consent.js"></script>
     <script src="JS/Scripts.js"></script>
     </body>
 </html>

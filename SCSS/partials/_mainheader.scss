@@ -59,7 +59,7 @@
 
 .icon-row {
     display: inline-flex;
-    justify-content: flex-end;  
+    justify-content: center;  
     flex-grow: 1; 
 }
 
@@ -73,31 +73,16 @@
     flex-direction: column;
     height: fit-content;
     align-items: center;
+    margin-top: 10px;
   }
   
-  .m_button:active .m_button_1 {
-    display: flex;
-  }
-  
-  .m_button_1 {
-    display: none;
-    padding: 3px 5px;
-    background-color: $background-color-dark-grey;
-    border-radius: 5px;
-    color: $color-white;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    align-items: center;
-  }
-  
-  m.m_button_1:active .m_button {
-    display: flex;
-  }
-  
-  #showRightPush:focus #crossRightPush {
-    display: flex;
-  }
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: $color-white;
+}
+
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+    background-color: $color-white;
+}
 
 .search-button {   
     align-self: center;    
@@ -114,7 +99,7 @@
 .fa-phone-volume {
     padding: 10px;
     color: $background-color-dark-grey; 
-    font-size: 2em;
+    font-size: 4.5em;
     margin-left: auto;
     margin-right: auto;
 } 
