@@ -1,16 +1,10 @@
-
-
 /* ----------Banner Section ---------------*/
-
-.banner-carousel {
-    padding-top: 190px;
-}
 
 .banner-container {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 81vh;
     color: $color-white;
     display: flex;              
     flex-direction: column;     
@@ -51,7 +45,7 @@
 .banner-text {
     width: 400px;
     margin: 5px;
-    text-align: center;
+    text-align: start;
     h2 {
         white-space: nowrap;
         font-size: 3em;
@@ -125,7 +119,7 @@
 }
 
 .slick-dots {
-    top: 70vh;  
+    top: 93vh;  
 }
 .slick-dots li button:before {
     font-size: 11px;
@@ -152,16 +146,18 @@
 .middle {
     display: block;
     background-color: $acontainer-color;
+    padding: 20px 0;
 }
 
 .container {    
     display: block;
     text-align: center;
     margin: 0 auto;
+    height: inherit;
 }
 
 .cards {
-    padding: 5px;
+    padding: 15px;
 }
 
 .card1, 
@@ -197,9 +193,11 @@
     h2 {
         font-size: 1.25em;
         font-weight: 400;
+        color: $background-color-dark-grey;
     }
     p {
         margin: 30px 10px 20px;
+        color: $background-color-dark-grey;
     }
 }
 
@@ -223,7 +221,8 @@ div.h2:after {
 
 .icon {
     color: $color-white;
-    font-size: 1.438rem;
+    font-size: 20px;
+    text-align: center;
 }
 
 .cardbs:hover {
@@ -237,6 +236,10 @@ div.h2:after {
     } .c1button {
         color: $color-grey;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -251,6 +254,10 @@ div.h2:after {
     } .c2button {
         color: $color-blue;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -265,6 +272,10 @@ div.h2:after {
     } .c3button {
         color: $color-green;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -279,6 +290,10 @@ div.h2:after {
     } .c4button {
         color: $color-red-2;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -293,6 +308,10 @@ div.h2:after {
     } .c5button {
         color: $color-purple;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -307,6 +326,10 @@ div.h2:after {
     } .c6button {
         color: $color-red;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -321,6 +344,10 @@ div.h2:after {
     } .c7button {
         color: $color-purple;
         background-color: $color-white;
+    } h2 {
+        color: $color-white;
+    } p {
+        color: $color-white;
     }
 }
 
@@ -328,7 +355,7 @@ div.h2:after {
    background-color: $color-grey;
    border-radius: 50%;
    padding: 15px;
-   }
+}
 
 .fas2 {
     background-color: $color-blue;

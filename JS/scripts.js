@@ -4,15 +4,35 @@
 
 $(document).ready(function () {
     $('.banner-carousel').slick({
-      autoplay: false,
+      autoplay: true,
       arrows: false,
       dots: true,
       infinite: true,
-      speed: 1500,
-      fade: true,
-      cssEase: 'linear'
+      speed: 300,
+      fade: false,
+      cssEase: 'linear',
     });
 
+// Stop page scroll 
+
+function disableScroll() { 
+            // Get the current page scroll position 
+            scrollTop =  
+              window.pageYOffset || document.documentElement.scrollTop; 
+            scrollLeft =  
+              window.pageXOffset || document.documentElement.scrollLeft, 
+  
+                // if any scroll is attempted, 
+                // set this to the previous value 
+                window.onscroll = function() { 
+                    window.scrollTo(scrollLeft, scrollTop); 
+                }; 
+        } 
+  
+        function enableScroll() { 
+            window.onscroll = function() {}; 
+        } 
+        
 // Cookie Scripts
 const modal = document.querySelector('.modal');
 const acceptBtn = document.querySelector('#acceptCookies');
@@ -25,14 +45,16 @@ const acceptBtn = document.querySelector('#acceptCookies');
   if (isCookieAccepted) {
     console.log(`Cookie status: ${isCookieAccepted}`)
   } else {
-    modal.classList.add('show')
+    modal.classList.add('show'),
+    disableScroll();
   }
 })();
 
 /** Close modal and Set cookie true in ls **/
 acceptBtn.addEventListener('click', () => {
   window.localStorage.setItem('cookie', true);
-  modal.classList.remove('show')
+  modal.classList.remove('show');
+  enableScroll();
 })
 
 
@@ -61,7 +83,6 @@ $(document).ready(function() {
     }
   }  
   })
-  });
 
 // Nav Bar 
 
@@ -83,3 +104,4 @@ window.onscroll = function() {
     $hamburger.toggleClass("is-active");
     // Do something else, like open/close menu
   });
+});

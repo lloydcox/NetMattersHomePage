@@ -34,10 +34,24 @@
     flex-basis: 15%;
 }
 
-.sbutton, .cbutton {
+.sbutton {
     display: flex;
     background-color: $color-blue;
     border-color: $color-blue;
+    border-radius: 3px;
+    color: $color-white;
+    height: 60px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.cbutton {
+    display: flex;
+    background-color: $color-light-grey;
+    border-color: $color-light-grey;
     border-radius: 3px;
     color: $color-white;
     height: 60px;
@@ -87,6 +101,12 @@
 
 .sl-container {
     width: 970px;
+}
+
+/* Carousel */
+
+.banner-carousel {
+    padding-top: 190px;
 }
 
 /* -------- Middle ----------- */

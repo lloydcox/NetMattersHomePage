@@ -1,5 +1,3 @@
-
-
 /* ----------MAIN NAV MENU ------------- */
 
 .main-nav-outer {
@@ -11,6 +9,7 @@
     position: relative;
     list-style-type: none;    
     background-color: $background-color-dark-grey; 
+    height: 99px;
 }
 
 .ul-container {
@@ -21,6 +20,7 @@
     width: 100%;
     justify-content: center;
     font-size: 18px;
+    height: inherit;
     li {
         display: flex;
         flex-direction: column;
@@ -43,6 +43,7 @@
     display: flex;
     border-right: 1px solid $men-but-border-right;
     border-left: 1px solid $men-but-border-left; 
+    height: inherit;
 }
 
 
@@ -136,8 +137,8 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
+    align-content: center;
     font-size: 16px;
-    padding-top: 10px;
 }
 
 .services-list-wd {
