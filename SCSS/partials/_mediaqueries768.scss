@@ -206,6 +206,10 @@
     display: none;
 }
 
+.client--image {
+    text-align: -webkit-center;
+}
+
 /* -------- Hover text appears ---- */
  
 .client:hover .client1 {
@@ -229,7 +233,7 @@
 }
 
 .client:hover .client-3 {
-    display: inline;
+    display: block;
 }
 
 .client:hover .client4 {
@@ -331,7 +335,7 @@
 }
 
 .partner:hover .partner-1 {
-    display: inline;
+    display: block;
 }
 
 .partner:hover .partner3 {
@@ -339,7 +343,7 @@
 }
 
 .partner:hover .partner-3 {
-    display: inline;
+    display: block;
 }
 
 .partner:hover .partner4 {

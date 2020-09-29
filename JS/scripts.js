@@ -4,13 +4,10 @@
 
 $(document).ready(function () {
     $('.banner-carousel').slick({
-      autoplay: true,
-      arrows: false,
       dots: true,
-      infinite: true,
-      speed: 300,
-      fade: false,
-      cssEase: 'linear',
+      autoplay: true,   
+      swipeToSlide: true,
+      autoplaySpeed: 3000
     });
 
 // Stop page scroll 
@@ -57,51 +54,30 @@ acceptBtn.addEventListener('click', () => {
   enableScroll();
 })
 
-
-
 // Side Menu scripts
 
-$(document).ready(function() {
-  var menuRight = document.getElementById('cbp-spmenu-s2'),
-    showRightPush = document.getElementById('showRightPush'),
-    body = document.body;  
-  
-  showRightPush.onclick = function() {
-    classie.toggle(this, 'active');
-    classie.toggle(body, 'cbp-spmenu-push-toleft');
-    classie.toggle(menuRight, 'cbp-spmenu-open');
-    disableOther('showRightPush');
-    if (showRightPush.style.display != 'none') {
-    } else {
-      showRightPush.style.display = 'flex';
-    }
-  };
-    
-  function disableOther(button) {
-    if (button !== 'showRightPush') {
-      classie.toggle(showRightPush, 'disabled');
-    }
-  }  
-  })
+$("#slider").slideReveal({
+  trigger: $("#trigger"),
+  position: "right",
+  push: true,
+  overlay: true,
+  width: 400,
+});
 
-// Nav Bar 
-
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("scroll_nav").style.top = "0";
-  } else {
-    document.getElementById("scroll_nav").style.top = "-250px";
-  }
-  prevScrollpos = currentScrollPos;
-}
 
 // Hamburger button
+var page = $(".page-container");
+var $hamburger = $(".hamburger");
+$hamburger.on("click", function(e) {
+  $hamburger.toggleClass("is-active");
+  page.toggleClass("fixed-position");
+  // document.getElementById("scroll_nav").style.right = "10px";
+});
 
-  var $hamburger = $(".hamburger");
-  $hamburger.on("click", function(e) {
-    $hamburger.toggleClass("is-active");
-    // Do something else, like open/close menu
-  });
+var $overlay = $(".slide-reveal-overlay");
+$overlay.on("click", function(e) {
+  $hamburger.toggleClass("is-active");
+  page.toggleClass("fixed-position");
+});
+
 });

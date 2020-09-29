@@ -1,12 +1,27 @@
 // Side Menu Nav Bar 
 
-.cbp-spmenu {
+.sidebar {
 	background: $background-color-dark-grey;
-    position: fixed;
+    // position: fixed;
     border-top: 1px solid rgba(0,0,0,.25);
     // overflow: scroll;
-    z-index: 99999;
+    z-index: 9;
 }
+
+.parent {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #aaa;
+    overflow: hidden;
+  }
+  .child {
+    height: 100%;
+    margin-bottom: -50px; /* maximum width of scrollbar */
+    padding-bottom: 50px; /* maximum width of scrollbar */
+    margin-right: -50px; /* maximum width of scrollbar */
+    padding-right: 50px; /* maximum width of scrollbar */
+    overflow: scroll;
+  }
 
 .sb-heading {
     list-style: none;
@@ -14,7 +29,7 @@
     border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
-.cbp-spmenu li a {
+.sidebar li a {
     display: block;
 	color: $color-white;
 	font-size: 16px;
@@ -24,7 +39,7 @@
     padding: 20px;
 }
 
-.sb-heading li a {
+.sb-heading ul li a {
 	display: block;
 	color: #fff;
 	font-size: 14px;
@@ -37,6 +52,10 @@
 .sb-heading li a:before {
     content: "\BB";
     padding-right: 15px;
+}
+
+.sb-heading:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 // Side nav bar 
@@ -117,121 +136,16 @@
 }
 
 
-/* Orientation-dependent styles for the content of the menu */
-
-.cbp-spmenu-vertical {
-	width: 258px;
-	height: 100%;
-	top: 0;
-	z-index: 1000;
-}
-
-.cbp-spmenu-vertical a {
-	padding: 1em;
-}
-
-/* Vertical menu that slides from the left or right */
-
-.cbp-spmenu-right {
-	right: -258px;
-}
-
-.cbp-spmenu-right.cbp-spmenu-open {
-	right: 0px;
-}
-
-/* Push classes applied to the body */
-
-.cbp-spmenu-push {
-	overflow-x: hidden;
-	position: relative;
-	left: 0;
-}
-
-.cbp-spmenu-push-toleft {
-	left: -240px;
-}
-
-/* Transitions */
-
-.cbp-spmenu,
-.cbp-spmenu-push {
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-
-
 // Side bar scroll 
 
 .sidebar:hover {
     overflow: scroll;
  } 
 
-/* Example media queries */
+.fixed-position {
+    position: fixed;
+} 
 
-@media screen and (min-width: 550px){
-
-	.cbp-spmenu-vertical {
-		font-size: 70%;
-		width: 288px;
-	}
-
-	.cbp-spmenu-left,
-	.cbp-spmenu-push-toleft {
-		left: -288px;
-	}
-
-	.cbp-spmenu-right {
-		right: -288px;
-	}
-
-	.cbp-spmenu-push-toright {
-		left: 288px;
-	}
-}
-
-@media screen and (min-width: 990px){
-
-	.cbp-spmenu-vertical {
-		font-size: 100%;
-		width: 350px;
-	}
-
-	.cbp-spmenu-left,
-	.cbp-spmenu-push-toleft {
-		left: -350px;
-	}
-
-	.cbp-spmenu-right {
-		right: -350px;
-	}
-
-	.cbp-spmenu-push-toright {
-		left: 350px;
-	}
-}
-
-@media screen and (min-width: 1260px){
-
-	.cbp-spmenu-vertical {
-		font-size: 100%;
-		width: 400px;
-	}
-
-	.cbp-spmenu-left,
-	.cbp-spmenu-push-toleft {
-		left: -400px;
-	}
-
-	.cbp-spmenu-right {
-		right: -400px;
-	}
-
-	.cbp-spmenu-push-toright {
-		left: 400px;
-	}
-}
 
 // Cookies
 
@@ -248,7 +162,7 @@
     display: none;
     flex-direction: column;
     box-shadow: 0 10px 25px #BDBDBD;
-    z-index: 400000000000000;
+    z-index: 40;
     
     &.show {
       display: flex;
@@ -321,10 +235,9 @@
 
 #scroll_nav {
     width: 100%;
-    height: 100%;
     position: fixed;
     top: 0;
     transition: top .4s;
     transition-delay: .5s;
-    z-index: 9;
+    z-index: 90;
 }

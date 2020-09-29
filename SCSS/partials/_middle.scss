@@ -1,5 +1,9 @@
 /* ----------Banner Section ---------------*/
 
+.block-div {
+    display: block;
+}
+
 .banner-container {
     width: 100%;
     background-repeat: no-repeat;
@@ -25,7 +29,7 @@
 }
 
 .background-4 {
-    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/bespoke-banner.jpg');
+    background-image: linear-gradient(to left, $background-img-gradient-1, $background-img-gradient-2), url('../Imgs/bespoke-software.jpg');
 }
 
 .background-5 {
@@ -119,7 +123,7 @@
 }
 
 .slick-dots {
-    top: 93vh;  
+    top: 71vh;  
 }
 .slick-dots li button:before {
     font-size: 11px;

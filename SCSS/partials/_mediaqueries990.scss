@@ -43,7 +43,7 @@
     height: 60px;
     width: 30%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 1.25em;
     text-transform: uppercase;
 }
@@ -57,7 +57,7 @@
     height: 60px;
     width: 30%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 1.25em;
     text-transform: uppercase;
 }
@@ -105,8 +105,24 @@
 
 /* Carousel */
 
-.banner-carousel {
-    padding-top: 190px;
+// .banner-carousel {
+//     margin-top: 190px;
+// }
+
+.banner-text {
+    width: 400px;
+    margin: 5px;
+    text-align: start;
+    h2 {
+        white-space: nowrap;
+        font-size: 3em;
+        font-weight: 400;
+    }
+    p {
+        text-align: start;
+        font-size: 1.5em;
+        white-space: nowrap;
+    }
 }
 
 /* -------- Middle ----------- */

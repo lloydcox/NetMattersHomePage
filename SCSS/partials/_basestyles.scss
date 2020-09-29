@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 body {
 font-family: Poppins,sans-serif;
 font-size: 1rem;
@@ -14,7 +23,6 @@ margin: 0;
 
 .page-container {
     height: 100%;
-    position: relative;
 }
 
 button {
@@ -33,5 +41,9 @@ ul {
 a {
     text-decoration: none;
 } 
+
+.slide-reveal-overlay {
+    z-index: 8;
+}
 
 

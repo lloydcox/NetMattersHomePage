@@ -9,7 +9,8 @@
     position: relative;
     list-style-type: none;    
     background-color: $background-color-dark-grey; 
-    height: 99px;
+    height: 100px;
+    width: 100%;
 }
 
 .ul-container {
@@ -44,6 +45,8 @@
     border-right: 1px solid $men-but-border-right;
     border-left: 1px solid $men-but-border-left; 
     height: inherit;
+    margin-top: 10px;
+    padding-bottom: 5px;
 }
 
 
