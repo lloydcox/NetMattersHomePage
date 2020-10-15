@@ -10,7 +10,6 @@
 
 .parent {
     width: 400px;
-    height: 200px;
     border: 1px solid #aaa;
     overflow: hidden;
   }
@@ -151,10 +150,10 @@
 
 
 .modal {
-    width: 600px;
+    width: 400px;
     background: #fff;
     position: absolute;
-    top: 225px;
+    top: 150px;
     left: 0;
     right: 0;
     margin: auto;
@@ -162,8 +161,9 @@
     display: none;
     flex-direction: column;
     box-shadow: 0 10px 25px #BDBDBD;
-    z-index: 40;
-    
+    z-index: 99999999;
+    height: 500px;
+    overflow: auto;    
     &.show {
       display: flex;
     }
@@ -175,7 +175,7 @@
         .settings_button {
         padding: 5px 0;
         margin: 20px 10px 20px 20px;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 35px;
         letter-spacing: 0.4px;
         cursor: pointer;
@@ -185,7 +185,7 @@
     }
     .accept_cookies {
         margin: 20px 20px 20px 10px;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 35px;
         letter-spacing: 0.4px;
         cursor: pointer;
@@ -200,7 +200,7 @@
     margin: 20px;
     h2 {
         font-weight: 400;
-        font-size: 26px;
+        font-size: 21px;
         color: $background-color-dark-grey;
     }
 }

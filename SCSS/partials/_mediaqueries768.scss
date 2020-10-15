@@ -2,8 +2,6 @@
 @media screen and (min-width: 768px) {
 
     /* -------- MAIN HEADER ------*/
-    
-
 
 .container-h {
     width: 750px;
@@ -362,6 +360,85 @@
     display: block;
 }
 
+.modal {
+    width: 500px;
+    background: #fff;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 3px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 10px 25px #BDBDBD;
+    z-index: 40;
+    height: 500px;
+    overflow: auto;    
+    &.show {
+      display: flex;
+    }
+
+.cookie_buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+        .settings_button {
+        padding: 5px 0;
+        margin: 20px 10px 20px 20px;
+        font-size: 17px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+        cursor: pointer;
+        background-color: $color-light-grey;
+        width: 47%;
+        border-radius: 3px;
+    }
+    .accept_cookies {
+        margin: 20px 20px 20px 10px;
+        font-size: 17px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+        cursor: pointer;
+        background-color: $color-purple;
+        width: 47%;
+        border-radius: 3px;
+    }
+  }
+}
+
+.cookie_title {
+    margin: 20px;
+    h2 {
+        font-weight: 400;
+        font-size: 26px;
+        color: $background-color-dark-grey;
+    }
+}
+.cookie_text {
+    border-top: $cookie-border 1px solid;
+    border-bottom: $cookie-border 1PX solid;
+    p {
+        margin: 20px;
+    }
+}
+
+#acceptCookies:hover {
+    background-color: $find-more-button-1;
+    box-shadow: rgba(0,0,0,0.125) 0px 3px 5px 0px inset;
+}
+
+#settings_button:hover {
+    background-color: $color-settings;
+    box-shadow: rgba(0,0,0,0.125) 0px 3px 5px 0px inset;
+}
+
+#acceptCookies:focus {
+    outline: none;
+}
+
+#settings_button:focus {
+    outline: none;
 }
     
-    
+} 
