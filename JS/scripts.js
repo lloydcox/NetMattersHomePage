@@ -80,4 +80,75 @@ $overlay.on("click", function(e) {
   page.toggleClass("fixed-position");
 });
 
+// contact form scripts 
+
+$(function () {
+  $("form[name='contactForm']").validate({
+      // Define validation rules
+      rules: {
+          name: "required",
+          email: "required",
+          phone: "required",
+          subject: "required",
+          message: "required",
+          name: {
+              required: true
+          },
+          email: {
+              required: true,
+              email: true
+          },
+          phone: {
+              required: true,
+              minlength: 10,
+              maxlength: 12,
+              number: true
+          },
+          subject: {
+              required: true
+          },
+          message: {
+              required: true
+          }
+      },
+
+      // Specify validation error messages
+      messages: {
+          name: "Please provide a valid name.",
+          email: {
+              required: "Please enter your email",
+              minlength: "Please enter a valid email address"
+          },
+          phone: {
+              required: "Please provide a phone number",
+              minlength: "Phone number must be min 10 characters long",
+              maxlength: "Phone number must not be more than 13 characters long"
+          },
+          subject: "Please enter subject",
+          message: "Please enter your message"
+      },
+      submitHandler: function (form) {
+          form.submit();
+      }
+  });
+}); 
+
+// form submit code 
+
+// function validate() {
+//   if (document.getElementById('form').checked) {
+//       return true;
+//   } else {
+//       alert("Unchecked form will not be submitted");
+//       return false;
+//   }
+// }
+
+// Arrow keys for Out of Hours 
+
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+    $(this).find('i').toggleClass("rotate")
+    // toggle down to rotate RATHER THEN CHANG ETHE IMAGE transition in css to rotate.
+  });
 });
