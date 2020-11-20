@@ -2,6 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
+$dbname = "netmatters";
 
 try {
   $conn = new PDO("mysql:host=$servername", $username, $password);

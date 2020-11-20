@@ -1415,7 +1415,7 @@ a {
 }
 
 /* line 120, ../../../../../xampp/htdocs/NMHP/NetMattersHomePage/SCSS/partials/_bottom.scss */
-.tool-tip {
+.tool-tip, .tool-tip_design {
   position: absolute;
   top: 10px;
   right: 0;
@@ -1429,11 +1429,11 @@ a {
 }
 
 /* line 133, ../../../../../xampp/htdocs/NMHP/NetMattersHomePage/SCSS/partials/_bottom.scss */
-.tool-tip1 {
+.tool-tip1, .tool-tip_Careers {
   position: absolute;
   top: 10px;
   right: 0;
-  background-color: #67809f;
+  background-color: #4183d7;
   color: #fff;
   font-size: .75rem;
   padding: 0 10px;
@@ -1528,8 +1528,8 @@ a {
 
 /* line 215, ../../../../../xampp/htdocs/NMHP/NetMattersHomePage/SCSS/partials/_bottom.scss */
 .author {
-  width: 100%;
-  height: auto;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 

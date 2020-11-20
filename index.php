@@ -225,116 +225,71 @@
             </div>
 
             <!-- Latest/ Blog -->
-            <div class="middle-bot">
-            
+
+            <div class="middle-bot">                
                 <div class="latest-articles">                
                     <div class="latest-row">
                         <h2>Latest</h2>
                     </div>
+                    
                         <div class="container">
                             <div class="acontainer">
+                                
                                 <div class="cols">
+                                    <?php
 
-                                <div class="col-lg col-lg1">
-                                    <div class="item">
-                                        <div class="img-container">
-                                            <a href="https://www.netmatters.co.uk/news/web-design" class="tool-tip" data-original-title="View all: Bespoke Software / News">
-                                                    News
-                                            </a>
-                                            <a class="img-bordered" href="https://www.netmatters.co.uk/may-2020-notable-employee">    
-                                                <picture  class="picture">
-                                                    <img class="img" src="Imgs/may-2020-notable-sK95.jpg" alt="notable-employee-1">
-                                                </picture>
-                                                <div class="block">
-                                                    <h3 class="h3-1">May Notable Employee</h3>
-                                                    <p>It's the beginning of June which means only one thing here at Netmatters - announcing the winner.</p>
-                                                    <div class="rmdiv"><span class="rmbutton">Read More</span></div>
-                                                    <div class="user">
-                                                        <div class="avatar">
-                                                            <picture>
-                                                                <img class="author" src="Imgs/nm.jpg" alt="author">
-                                                            </picture>
-                                                        </div>
-                                                        <div class="details">
-                                                            <strong class="text-primary">Posted by Netmatters Ltd</strong>
-                                                            <br><span class="text-secondary">10th June 2020"</span>
-                                                        </div>
+                                    include('includes/blog.php');
+
+                                    $query = "SELECT * FROM blog ORDER BY id DESC";
+                                    $results = mysqli_query($conn, $query);          
+
+                                    while ($row = mysqli_fetch_array($results))  {    
+                                        // if ($theme = $row['theme'] = "design" ) {
+                                        //     $theme = 'class="tool-design"';
+                                        // } else {
+                                        //     $theme = 'class="tool-careers"';
+                                        // }                                    
+
+                                    echo '
+
+                                    <div class="col-lg col-lg1">
+                                        
+                                        <div class="item">
+                                            <div class="img-container">
+                                                <a href="https://www.netmatters.co.uk/news/web-design" class="tool-tip_' . $row['theme'] . '" data-original-title="' . $row['tooltip'] .'">
+                                                        ' . $row['tag'] .'
+                                                </a>
+                                                <a class="img-bordered" href="' . $row['link'] . '">    
+                                                    <picture  class="picture">
+                                                        <img class="img" src="data:image/jpeg;base64,'. base64_encode($row['image']) .'">
+                                                    </picture>
+                                                    <div class="block">
+                                                        <h3 class="h3-1">' . $row['title'] . '</h3>
+                                                        <p>' . $row['content'] .'</p>
+                                                        <div class="rmdiv"><span class="rmbutton">Read More</span></div>
+                                                            <div class="user">
+                                                                <div class="avatar">
+                                                                    <picture>
+                                                                        <img class="author" src="data:image/jpeg;base64,'. base64_encode ($row['author_image']) .'" alt="author">
+                                                                    </picture>
+                                                                </div>
+                                                                <div class="details">
+                                                                    <strong class="text-primary">Posted by ' . $row['author'] .'</strong>
+                                                                    <br><span class="text-secondary">' . $row['date'] . '</span>
+                                                                </div>
+                                                            </div>
                                                     </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>                        
-                                </div>
-                                <div class="col-lg col-lg2">
-                                    <div class="item">
-                                        <div class="img-container">
-                                            <a href="https://www.netmatters.co.uk/our-careers/bespoke-software" class="tool-tip1" data-original-title="View all: Bespoke Software / News">
-                                                Careers
-                                            </a>
-                                            <a class="img bordered" href="https://www.netmatters.co.uk/1st-line-support-technician">
-                                            <picture  class="picture">
-                                                <img class="img" src="Imgs/1st-line-support-NXuI.jpg" alt="1st-line-support">
-                                            </picture>
-                                            <div class="block">
-                                                <h3 class="h3-2">1st Line Support Technician</h3>
-                                                <p>SALARY: £18,000 - £23,000 + Bonus & Pension NetMatters is a rapidly growing website development... </p>
-                                                <div class="rmdiv"><span class="rmbuttonc">Read More</span></div>
-                                                <div class="user">
-                                                    <div class="avatar">
-                                                        <picture>
-                                                            <img class="rob author" src="Imgs/rob.jpg" alt="rob">
-                                                        </picture>
-                                                    </div>
-                                                    <div class="details">
-                                                        <strong class="text-primary">Posted by Rob George</strong>
-                                                        <br><span class="text-secondary">10th June 2020</span>
-                                                    </div>
-                                                </div>
+                                                </a>
                                             </div>
-                                            </a>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-
-                                <div class="col-lg col-lg3">
-                                    <div class="item">
-                                        <div class="img-container">
-                                            <a href="https://www.netmatters.co.uk/our-careers/bespoke-software" class="tool-tip1" data-original-title="View all: Bespoke Software / News">
-                                                Careers
-                                            </a>
-                                            <a class="img bordered" href="https://www.netmatters.co.uk/senior-it-support-technician">
-                                            <picture class="picture">
-                                                <img class="img" src="Imgs/senior-it-support-DklE.jpg" alt="senior-it-support">
-                                            </picture>
-                                            <div class="block">
-                                                <h3 class="h3-3">Senior IT Support Technician</h3>
-                                                <p>SALARY: £28,000 - £34,000 + Bonus + Pension Hours: 40 Hours per week, Monday - Friday Location... </p>
-                                                <div class="rmdiv"><span class="rmbuttonc">Read More</span></div>
-                                                <div class="user">
-                                                    <div class="avatar">
-                                                        <picture>
-                                                            <img class="rob author" src="Imgs/rob.jpg" alt="rob" >
-                                                        </picture>
-                                                    </div>
-                                                    <div class="details">
-                                                        <strong class="text-primary">Posted by Rob George</strong>
-                                                        <br><span class="text-secondary">10th June 2020</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                        </div>    
+                                        mysqli_close($conn);                    
+                                    </div>';}?>                      
                                 </div>
                             </div>
                         </div>
                 </div>
-            </div>        
-
+            </div>
+        
             <!-- Clients -->
             <div class="clients">
                 <div class="clients-container">
