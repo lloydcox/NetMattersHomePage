@@ -240,7 +240,7 @@
 
                                     include('includes/blog.php');
 
-                                    $query = "SELECT * FROM blog ORDER BY id DESC";
+                                    $query = "SELECT * FROM blog ORDER BY date DESC";
                                     $results = mysqli_query($conn, $query);          
 
                                     while ($row = mysqli_fetch_array($results))  {    
@@ -282,8 +282,10 @@
                                                 </a>
                                             </div>
                                         </div>    
-                                        mysqli_close($conn);                    
-                                    </div>';}?>                      
+                                                  
+                                    </div>';}
+                                          mysqli_close($conn);    
+                                    ?>                      
                                 </div>
                             </div>
                         </div>

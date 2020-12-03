@@ -135,14 +135,14 @@ $(function () {
 
 // form submit code 
 
-// function validate() {
-//   if (document.getElementById('form').checked) {
-//       return true;
-//   } else {
-//       alert("Unchecked form will not be submitted");
-//       return false;
-//   }
-// }
+function validate() {
+  if (document.getElementById('form').checked) {
+      return true;
+  } else {
+      alert("Unchecked form will not be submitted");
+      return false;
+  }
+}
 
 // Arrow keys for Out of Hours 
 
