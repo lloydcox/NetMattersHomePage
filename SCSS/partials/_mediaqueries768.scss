@@ -13,22 +13,43 @@
     flex-wrap: nowrap;
     margin-bottom: 10px;
     align-items: center;
-}    
+} 
+
+.logo-row {
+    width: 57%;
+}
 
 .logo_img { 
-    width: 90%;     
+    width: 100%;     
     height: auto;       
+}
+
+.outter-button {
+    width: 30%;
+    order: 0;
 }
     
 .button-row {
     order: 0;
-    width: auto;
+    width: 100%;
     margin-top: 0;
 }
 
 .icon-row {
     display: flex;
     height: 60px;
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.outer-button {
+    width: 95%;
+    order: 0;
+}
+
+.ssrow{
+    order: 0;
+    width: 85%;
 }
     
 #phone {
@@ -79,12 +100,16 @@
 .card1, .card2, .card3 {    
     width: 100%;     
 }
+
+.card4, .card6 {
+    margin-right: 30px;
+}
     
 .card4, 
 .card5, 
 .card6, 
 .card7 {
-    width: 50%; 
+    width: 48%; 
 }
     
     
@@ -105,7 +130,7 @@
     
 .col-lg1,
 .col-lg2  {
-    width: 45%;
+    width: 48%;
 }
     
 .col-lg3 {
@@ -257,7 +282,7 @@
 .cols1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
         p { 
             color: $color-white;
             font-size: 0.85em;
@@ -265,7 +290,7 @@
 }
     
 .col-1, .col-2, .col-3 {
-    width: 35%;
+    width: 50%;
     color: $color-white;
         li {
            list-style-type: none;
@@ -276,7 +301,7 @@
 }
     
 .col-4 {
-    width: 35%;
+    width: 50%;
     color: $color-white;
     justify-content: flex-start;
         li {

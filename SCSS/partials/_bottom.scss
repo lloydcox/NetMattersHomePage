@@ -9,7 +9,6 @@
 
 
 .text-box {
-    padding: 5px;
     color: $color-white;
     font-size: .95em;
     line-height: 2em;
@@ -50,6 +49,10 @@
     background-color: $color-white;
 }
 
+.container-l {
+    margin: 0 20px;
+}
+
 .acontainer {    
     background-color: $acontainer-color;
 }
@@ -78,7 +81,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 25px;
 }
 
 .col-lg {

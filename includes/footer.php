@@ -4,31 +4,31 @@
                 <div class="container">
                     <div class="cols1">
                         <div class="col-1">
-                        <h3>Contact Us</h3>
-                        <p>11 Penfold Drive<br>Wymondham<br>Norfolk<br>NR18 0WZ</p>
-                        <p>01603 70 40 20<br>
-                        Email: support@netmatters.com</p>
+                            <h3>Contact Us</h3>
+                            <p>11 Penfold Drive<br>Wymondham<br>Norfolk<br>NR18 0WZ</p>
+                            <p>01603 70 40 20<br>
+                            Email: support@netmatters.com</p>
                         </div>
             
                         <div class="col-2">
-                        <h3>About NetMatters</h3>
-                            <ul class="footer-nav">
-                                <li><a href="https://www.netmatters.co.uk/news">News</a></li>
-                                <li><a href="https://www.netmatters.co.uk/our-careers"> Our Careers</a></li>
-                                <li><a href="https://www.netmatters.co.uk/team"> Our Team</a></li>
-                                <li><a href="https://www.netmatters.co.uk/office-tour"> Our Office Tour</a></li>
-                                <li><a href="https://www.netmatters.co.uk/privacy-policy"> Privacy Policy</a></li>
-                                <li><a href="https://www.netmatters.co.uk/cookie-policy"> Cookie Policy</a></li>
-                                <li><a href="https://www.netmatters.co.uk/terms-and-conditions"> Terms & Conditions</a></li>
-                                <li><a href="https://www.netmatters.co.uk/terms-and-conditions/uk-domains"> UK Domains</a></li>
-                            </ul>   
+                            <h3>About NetMatters</h3>
+                                <ul class="footer-nav">
+                                    <li><a href="https://www.netmatters.co.uk/news">News</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/our-careers"> Our Careers</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/team"> Our Team</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/office-tour"> Our Office Tour</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/privacy-policy"> Privacy Policy</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/cookie-policy"> Cookie Policy</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/terms-and-conditions"> Terms & Conditions</a></li>
+                                    <li><a href="https://www.netmatters.co.uk/terms-and-conditions/uk-domains"> UK Domains</a></li>
+                                </ul>   
                         </div>
             
                         <div class="col-3">
-                        <h3>Website</h3>
-                            <a href="https://www.netmatters.co.uk/sitemap.xml">SiteMap</a><br>
-                            <span> &#169;  Copyright Netmatters Ltd. 2020<br>
-                                All rights reserved</span>
+                            <h3>Website</h3>
+                                <a href="https://www.netmatters.co.uk/sitemap.xml">SiteMap</a><br>
+                                <span> &#169;  Copyright Netmatters Ltd. 2020<br>
+                                    All rights reserved</span>
                         </div>
                         
                         <div class="col-4">
@@ -47,9 +47,7 @@
                                 <div class="col-xs col-li">
                                     <a href="linkedin.com/netmatters" class="libutton"><i class="fab fa-linkedin-in fa-1x"></i>
                                     </a>
-                                </div>
-            
-                            
+                                </div>                           
                             </div>
                         </div>
                     </div> 

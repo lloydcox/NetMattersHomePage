@@ -17,12 +17,17 @@
     width: auto;
 }
 
+.outter-button {
+   width: 55%;
+}
+
 .sbutton, .cbutton {
-    width: 25%;
+    width: 40%;
 }
 
 .ssrow {
  flex-basis: auto;
+ width: 85%;
 }
 
 .search-outer {
@@ -65,14 +70,18 @@ width: 1200px;
 }
 
 .card1, .card2, .card3 {    
-    width: 33%;     
+    width: 31.5%;     
 }
 
 .card4, 
 .card5, 
 .card6, 
 .card7 {
-  width: 25%; 
+  width: 22.55%; 
+}
+
+.card5 {
+    margin-right: 30px;
 }
 
 /*------- bottom ------*/

@@ -1,5 +1,6 @@
 // Scripts
 
+
 // Carousel Scripts
 
 $(document).ready(function () {
@@ -48,11 +49,67 @@ const acceptBtn = document.querySelector('#acceptCookies');
 })();
 
 /** Close modal and Set cookie true in ls **/
-acceptBtn.addEventListener('click', () => {
+  acceptBtn.addEventListener('click', () => {
   window.localStorage.setItem('cookie', true);
   modal.classList.remove('show');
   enableScroll();
 })
+
+// search bar 
+$( window ).load(function() {
+if((window.innerWidth < 1260) && (window.innerWidth > 900  )) {
+  $(".search-button").addClass("use");
+  $(".use").bind('click', function () {
+    $(".buttons").toggleClass("hide sopen");
+    $(".ssrow").toggleClass("owide");
+    $(".search-outer").toggleClass("hide");
+    $(".search-button").toggleClass("thin");
+    })
+  }
+})
+
+$( window ).load(function() {
+  if (window.innerWidth < 990) {
+    $(".search-button").removeClass("use");
+  }
+});
+
+$( window ).load(function() {
+  if (window.innerWidth > 1260) {
+    $(".search-button").removeClass("use");
+    $(".buttons").removeClass("hide");
+  }
+});
+
+$( window ).resize(function() {
+  if((window.innerWidth < 1260) && (window.innerWidth > 900 )) {
+    $(".search-button").addClass("use");
+    $("div.buttons.sopen").addClass("hide");
+    $(".use").bind('click', function (event) {
+      event.stopPropagation();  
+      $(".buttons").toggleClass("hide sopen");
+      $(".ssrow").toggleClass("owide");
+      $(".search-outer").toggleClass("hide");
+      $(".search-button").toggleClass("thin");
+    })
+  }
+});
+
+$( window ).resize(function() {
+  if (window.innerWidth > 1260) {
+    $(".use").unbind();
+    $(".search-button").removeClass("use");
+    $(".buttons").removeClass("hide");
+  }
+});
+
+$( window ).resize(function() {
+  if (window.innerWidth < 990) {
+    $(".use").unbind();
+    $(".search-button").removeClass("use");
+  }
+});
+
 
 // Side Menu scripts
 

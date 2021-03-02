@@ -56,7 +56,7 @@
                                 <li class="container2">
                                     <ul class="sb-ul">    
                                         <li class="sb-li sb-serv">                                
-                                            <a href="https://www.netmatters.co.uk/web-design">
+                                            <a href="#://www.netmatters.co.uk/web-design">
                                                 <span class="icon">
                                                     <i class="fas-1 fa-code fas "></i>
                                                 </span>                                        
@@ -65,22 +65,22 @@
                                         </li>
                                             <ul class="sb-sl-men">
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/web-design/website-design">Stylish Websites</a>
+                                                    <a href="#://www.netmatters.co.uk/web-design/website-design">Stylish Websites</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/web-design/ecommerce-development"> Ecommerce Stores</a>
+                                                <a href="#://www.netmatters.co.uk/web-design/ecommerce-development"> Ecommerce Stores</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/web-design/branding"> Branding</a>
+                                                    <a href="#://www.netmatters.co.uk/web-design/branding"> Branding</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/web-design/mobile-apps-development">Mobile Apps</a>
+                                                <a href="#://www.netmatters.co.uk/web-design/mobile-apps-development">Mobile Apps</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/web-design/web-hosting"> Web Hosting</a>
+                                                    <a href="#://www.netmatters.co.uk/web-design/web-hosting"> Web Hosting</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/web-design/pay-monthly-websites">Pay Monthly Websites</a>
+                                                    <a href="#://www.netmatters.co.uk/web-design/pay-monthly-websites">Pay Monthly Websites</a>
                                                 </li> 
                                             </ul>
                                     </ul>
@@ -90,7 +90,7 @@
                                 <li class="container2">
                                     <ul class="sb-ul">    
                                         <li class="sb-li sb-serv">                                
-                                            <a href="https://www.netmatters.co.uk/it-support">
+                                            <a href="#://www.netmatters.co.uk/it-support">
                                                 <span class="icon">
                                                     <i class="fas-2 fa-tv fas "></i>
                                                 </span>
@@ -99,22 +99,22 @@
                                         </li>
                                             <ul class="sb-sl-men">
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/it-support/managed-it-support">MANAGED IT SUPPORT</a>
+                                                    <a href="#://www.netmatters.co.uk/it-support/managed-it-support">MANAGED IT SUPPORT</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/it-support/business-it-support">BUSINESS IT SUPPORT</a>
+                                                <a href="#://www.netmatters.co.uk/it-support/business-it-support">BUSINESS IT SUPPORT</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/it-support/office-365-for-business">OFICE 365</a>
+                                                    <a href="#://www.netmatters.co.uk/it-support/office-365-for-business">OFICE 365</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/it-support/it-consultancy">CONSULTANCY</a>
+                                                <a href="#://www.netmatters.co.uk/it-support/it-consultancy">CONSULTANCY</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/it-support/cloud-service-provider">CLOUD PROVIDER</a>
+                                                    <a href="#://www.netmatters.co.uk/it-support/cloud-service-provider">CLOUD PROVIDER</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/it-support/data-backup-disaster-recovery">DATA BACKUP</a>
+                                                    <a href="#://www.netmatters.co.uk/it-support/data-backup-disaster-recovery">DATA BACKUP</a>
                                                 </li> 
                                             </ul>
                                     </ul>
@@ -124,7 +124,7 @@
                                 <li class="container2">
                                     <ul class="sb-ul">    
                                         <li class="sb-li sb-serv">                                
-                                            <a href="https://www.netmatters.co.uk/telecoms-services">
+                                            <a href="#://www.netmatters.co.uk/telecoms-services">
                                                 <span class="icon">
                                                     <i class="fas-3 fa-phone-alt fas"></i>
                                                 </span>
@@ -133,22 +133,22 @@
                                         </li>
                                             <ul class="sb-sl-men">
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/telecoms-services/gigabit-voucher-scheme">GIGABIT VOUCHER</a>
+                                                    <a href="#://www.netmatters.co.uk/telecoms-services/gigabit-voucher-scheme">GIGABIT VOUCHER</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/telecoms-services/hosted-business-voip">HOSTED VOIP</a>
+                                                <a href="#://www.netmatters.co.uk/telecoms-services/hosted-business-voip">HOSTED VOIP</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/telecoms-services/business-voip">BUSINESS VOIP</a>
+                                                    <a href="#://www.netmatters.co.uk/telecoms-services/business-voip">BUSINESS VOIP</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/telecoms-services/business-broadband-provider">BUSINESS BROADBAND</a>
+                                                <a href="#://www.netmatters.co.uk/telecoms-services/business-broadband-provider">BUSINESS BROADBAND</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/telecoms-services/leased-lines-provider">LEASED LINE</a>
+                                                    <a href="#://www.netmatters.co.uk/telecoms-services/leased-lines-provider">LEASED LINE</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/telecoms-services/3cx-system">3CX SYSTEMS</a>
+                                                    <a href="#://www.netmatters.co.uk/telecoms-services/3cx-system">3CX SYSTEMS</a>
                                                 </li> 
                                             </ul>
                                     </ul>
@@ -158,7 +158,7 @@
                                 <li class="container2">
                                     <ul class="sb-ul">    
                                         <li class="sb-li sb-serv">                                
-                                            <a href="https://www.netmatters.co.uk/bespoke-software">
+                                            <a href="#://www.netmatters.co.uk/bespoke-software">
                                                 <span class="icon">
                                                     <i class="fas-4 fa-border-all fas "></i>
                                                 </span>
@@ -167,22 +167,22 @@
                                         </li>
                                             <ul class="sb-sl-men">
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/bespoke-software/workflow-solutions">WORKFLOW SOLUTIONS</a>
+                                                    <a href="#://www.netmatters.co.uk/bespoke-software/workflow-solutions">WORKFLOW SOLUTIONS</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/bespoke-software/business-automation">AUTOMATION</a>
+                                                <a href="#://www.netmatters.co.uk/bespoke-software/business-automation">AUTOMATION</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/bespoke-software/systems-integrations">SYSTEM INTEGRATION</a>
+                                                    <a href="#://www.netmatters.co.uk/bespoke-software/systems-integrations">SYSTEM INTEGRATION</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/bespoke-software/database-management-software">DATABASE MANAGEMENT</a>
+                                                <a href="#://www.netmatters.co.uk/bespoke-software/database-management-software">DATABASE MANAGEMENT</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/bespoke-software/sharepoint-development">SHAREPOINT</a>
+                                                    <a href="#://www.netmatters.co.uk/bespoke-software/sharepoint-development">SHAREPOINT</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/bespoke-software/erp-software">ERP</a>
+                                                    <a href="#://www.netmatters.co.uk/bespoke-software/erp-software">ERP</a>
                                                 </li> 
                                             </ul>
                                     </ul>
@@ -192,7 +192,7 @@
                                 <li class="container2">
                                     <ul class="sb-ul">    
                                         <li class="sb-li sb-serv">                                
-                                            <a href="https://www.netmatters.co.uk/digital-marketing">                                
+                                            <a href="#://www.netmatters.co.uk/digital-marketing">                                
                                                 <span class="icon">
                                                     <i class="fas-5 fa-signal fas "></i>
                                                 </span>
@@ -201,22 +201,22 @@
                                         </li>
                                             <ul class="sb-sl-men">
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/digital-marketing/seo-search-engine-optimisation">SEO</a>
+                                                    <a href="#://www.netmatters.co.uk/digital-marketing/seo-search-engine-optimisation">SEO</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/digital-marketing/ppc">PPC</a>
+                                                <a href="#://www.netmatters.co.uk/digital-marketing/ppc">PPC</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/digital-marketing/conversion-marketing">CRO</a>
+                                                    <a href="#://www.netmatters.co.uk/digital-marketing/conversion-marketing">CRO</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/digital-marketing/email-marketing">EMAIL</a>
+                                                <a href="#://www.netmatters.co.uk/digital-marketing/email-marketing">EMAIL</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/digital-marketing/social-media-marketing">SOCIAL</a>
+                                                    <a href="#://www.netmatters.co.uk/digital-marketing/social-media-marketing">SOCIAL</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/digital-marketing/content-marketing">CONTENT</a>
+                                                    <a href="#://www.netmatters.co.uk/digital-marketing/content-marketing">CONTENT</a>
                                                 </li> 
                                             </ul>
                                     </ul>
@@ -226,7 +226,7 @@
                                 <li class="container2">
                                     <ul class="sb-ul">    
                                         <li class="sb-li sb-serv">                                
-                                            <a href="https://www.netmatters.co.uk/cyber-security">
+                                            <a href="#://www.netmatters.co.uk/cyber-security">
                                                 <span class="icon">
                                                     <i class="fas-6 fa-shield-alt fas "></i>
                                                 </span>
@@ -235,22 +235,22 @@
                                         </li>
                                             <ul class="sb-sl-men">
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/cyber-security/cyber-security-assessment">ASSESMENT</a>
+                                                    <a href="#://www.netmatters.co.uk/cyber-security/cyber-security-assessment">ASSESMENT</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/cyber-security/cyber-security-management">MANAGEMENT</a>
+                                                <a href="#://www.netmatters.co.uk/cyber-security/cyber-security-management">MANAGEMENT</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/cyber-security/cyber-penetration-testing">PENETRATION TESTING</a>
+                                                    <a href="#://www.netmatters.co.uk/cyber-security/cyber-penetration-testing">PENETRATION TESTING</a>
                                                 </li>
                                                 <li> 
-                                                <a href="https://www.netmatters.co.uk/cyber-security/cyber-essentials-certification">CYBER ESSENTIALS</a>
+                                                <a href="#://www.netmatters.co.uk/cyber-security/cyber-essentials-certification">CYBER ESSENTIALS</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/cyber-security/pci-compliance">PCI/DSS</a>
+                                                    <a href="#://www.netmatters.co.uk/cyber-security/pci-compliance">PCI/DSS</a>
                                                 </li>
                                                 <li> 
-                                                    <a href="https://www.netmatters.co.uk/cyber-security/hacker-prevention">HACKER PREVENTION</a>
+                                                    <a href="#://www.netmatters.co.uk/cyber-security/hacker-prevention">HACKER PREVENTION</a>
                                                 </li> 
                                             </ul>
                                     </ul>
@@ -262,64 +262,64 @@
                         </li>
             
                         <li class="sb-heading">
-                            <a href="https://www.netmatters.co.uk/scs-web-developer-course">TRAINING</a>
+                            <a href="#://www.netmatters.co.uk/scs-web-developer-course">TRAINING</a>
                                 <ul class="menu">
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/scs-web-developer-course">WEB DEVELOPER COURSE</a>
+                                        <a href="#://www.netmatters.co.uk/scs-web-developer-course">WEB DEVELOPER COURSE</a>
                                     </li>
                                 </ul>
                         </li>
                         
                         <li class="sb-heading">
-                            <a href="https://www.netmatters.co.uk/business-automation-seminar">EVENTS</a>
+                            <a href="#://www.netmatters.co.uk/business-automation-seminar">EVENTS</a>
                                 <ul class="menu">
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/business-automation-seminar">BUSINESS AUTOMATION SEMINAR</a>
+                                        <a href="#://www.netmatters.co.uk/business-automation-seminar">BUSINESS AUTOMATION SEMINAR</a>
                                     </li>
                                 </ul>
                         </li>
             
                         <li class="sb-heading">
-                            <a href="https://www.netmatters.co.uk/our-culture">OUR COMPANY</a>
+                            <a href="#://www.netmatters.co.uk/our-culture">OUR COMPANY</a>
                                 <ul class="menu">
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/our-culture">OUR CULTURE</a>
+                                        <a href="#://www.netmatters.co.uk/our-culture">OUR CULTURE</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/team">OUR TEAM</a>
+                                        <a href="#://www.netmatters.co.uk/team">OUR TEAM</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/our-careers">OUR CAREERS</a>
+                                        <a href="#://www.netmatters.co.uk/our-careers">OUR CAREERS</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/our-benefits">OUR BENEFITS</a>
+                                        <a href="#://www.netmatters.co.uk/our-benefits">OUR BENEFITS</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/it-support-in-great-yarmouth">OUR GREAT YARMOUTH OFFICE</a>
+                                        <a href="#://www.netmatters.co.uk/it-support-in-great-yarmouth">OUR GREAT YARMOUTH OFFICE</a>
                                     </li>
                                 </ul>
                         </li>
             
                         <li class="sb-heading">
-                            <a href="https://www.netmatters.co.uk/case-studies">OUR WORK</a>
+                            <a href="#://www.netmatters.co.uk/case-studies">OUR WORK</a>
                                 <ul class="menu">
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/case-studies">CASE STUDIES</a>
+                                        <a href="#://www.netmatters.co.uk/case-studies">CASE STUDIES</a>
                                     </li>
                                 </ul>
                         </li>
             
                         <li class="sb-heading">
-                            <a href="https://www.netmatters.co.uk/guides">OUR KNOWLEDGE</a>
+                            <a href="#://www.netmatters.co.uk/guides">OUR KNOWLEDGE</a>
                                 <ul class="menu">
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/guides">GUIDES</a>
+                                        <a href="#://www.netmatters.co.uk/guides">GUIDES</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/articles">NEWS</a>
+                                        <a href="#://www.netmatters.co.uk/articles">NEWS</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.netmatters.co.uk/insights">INSIGHTS</a>
+                                        <a href="#://www.netmatters.co.uk/insights">INSIGHTS</a>
                                     </li>
                                 </ul>
                         </li>
@@ -336,34 +336,38 @@
                                 <div class="container-h">
                                     <div class="row-menu">
                                         <img class="chat_button_img" src="Imgs/chat-bubble-icon.png" alt="chat-button"> 
-                                            
+                                        <div class="button-row">
                                             <div class="logo-row">
                                                 <a href="index.php">
                                                     <img class="logo_img" alt="logo" src="Imgs/nm-logo.png">
                                                 </a>
                                             </div>
-    
-                                                <div class="button-row">
-                                                    <a href="https://support.netmatters.com/" class="sbutton"><i class="fas fa-mouse"></i>Support</a>
+                                            <div class="outter-button">                             
+                                                <div class="buttons">
+                                                    <a href="#" class="sbutton"><i class="fas fa-mouse"></i>Support</a>
                                                     <a href="contact.php" class="cbutton"><i class="fas fa-paper-plane"></i>Contact</a>
-                                                    <div class="ssrow">
-                                                                <div class="search-outer">
-                                                                    <div class="search-container">
-                                                                        <input class="search-box" type="search" name="search" placeholder="  Search...">                                               
-                                                                    </div>                                                     
-                                                                </div>
-                                                            <button class="search-button" id="search-button"><i class="fa fa-search searchIcon fas fa-1x"></i></button>
-                                                        </div> 
                                                 </div>
-                                                
-                                            <div class="icon-row">
+                                                <div class="ssrow">
+                                                    <div class="search-outer hide">
+                                                        <div class="search-container">
+                                                            <input class="search-box" type="search" name="search" placeholder="  Search...">                                               
+                                                        </div>                                                     
+                                                    </div>
+                                                        <button class="search-button" id="search-button"><i class="fa fa-search searchIcon fas fa-1x"></i></button>
+                                                </div>
+                                            </div> 
+                                                <div class="icon-row">
                                                     <i id="phone" class="fas fa-phone-volume fas fa-2x"></i>
                                                     <button id="showRightPush" class="hamburger hamburger--collapse m_button" type="button">
                                                         <span id="trigger" class="hamburger-box  is-active">
                                                         <span class="hamburger-inner"></span>
                                                         </span><small>Menu</small>
-                                                    </button>                                          
-                                            </div> 
+                                                    </button>    
+                                                </div>                                      
+                                        </div> 
+                   
+                                                
+                                      
                                     </div>
                                 </div> 
                             </div>
@@ -376,7 +380,7 @@
                                 <ul class="ul-container"> 
     
                                     <li class="men-but" id="web-dev">                                 
-                                            <a href="https://www.netmatters.co.uk/web-design" id="nav-men-wd">
+                                            <a href="#://www.netmatters.co.uk/web-design" id="nav-men-wd">
                                                 <span class="icon">
                                                     <i class="fas-1 fa-code fas"></i>
                                                 </span>                                        
@@ -400,7 +404,7 @@
                                     </li>
                                     
                                     <li class="men-but" id="it-sup">                            
-                                            <a href="https://www.netmatters.co.uk/it-support" id="nav-men-is">
+                                            <a href="#://www.netmatters.co.uk/it-support" id="nav-men-is">
                                                 <span class="icon">
                                                     <i class="fas-2 fa-tv fas "></i>
                                                 </span>
@@ -424,7 +428,7 @@
                                     </li>   
     
                                     <li class="men-but services" id="tel-ser" >
-                                        <a href="https://www.netmatters.co.uk/telecoms-services" id="nav-men-ts">
+                                        <a href="#://www.netmatters.co.uk/telecoms-services" id="nav-men-ts">
                                             <span class="icon">
                                                 <i class="fas-3 fa-phone-alt fas "></i>
                                             </span>
@@ -448,7 +452,7 @@
                                     </li>
     
                                     <li class="men-but services" id="bes-sof">
-                                        <a href="https://www.netmatters.co.uk/bespoke-software" id="nav-men-bs">
+                                        <a href="#://www.netmatters.co.uk/bespoke-software" id="nav-men-bs">
                                             <span class="icon">
                                                 <i class="fas-4 fa-border-all fas "></i>
                                             </span>
@@ -472,7 +476,7 @@
                                     </li>
     
                                     <li class="men-but services" id="dig-mar">
-                                        <a href="https://www.netmatters.co.uk/digital-marketing" class="nav-men" id="nav-men-dm">                                
+                                        <a href="#://www.netmatters.co.uk/digital-marketing" class="nav-men" id="nav-men-dm">                                
                                             <span class="icon">
                                                 <i class="fas-5 fa-signal fas "></i>
                                             </span>
@@ -496,7 +500,7 @@
                                     </li>
     
                                     <li class="men-but services" id="cyb-sec">
-                                        <a href="https://www.netmatters.co.uk/cyber-security" id="nav-men-cs">
+                                        <a href="#://www.netmatters.co.uk/cyber-security" id="nav-men-cs">
                                             <span class="icon">
                                                 <i class="fas-6 fa-shield-alt fas "></i>
                                             </span>

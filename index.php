@@ -12,7 +12,7 @@
                                 <h2>Web Design</h2>
                                     <p>For Businesses looking to make a strong<br>
                                         and effective first impression.</p>
-                                        <button class="more-button-1" onclick="window.location.href='https://www.netmatters.co.uk/web-design';" value="web-design">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
+                                        <button class="more-button-1" onclick="window.location.href='#://www.netmatters.co.uk/web-design';" value="web-design">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                                 <h2>IT SUPPORT</h2>
                                     <p>Fast and cost-effective IT Support<br>
                                         services for your business.</p>
-                                        <button class="more-button-2" onclick="window.location.href='https://www.netmatters.co.uk/it-support';" value="it-support">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
+                                        <button class="more-button-2" onclick="window.location.href='#://www.netmatters.co.uk/it-support';" value="it-support">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                                 <h2>TELECOM SERVICES</h2>
                                     <p>A new approach to cnnectivity, see how<br>
                                     we can help your businesses.</p>
-                                        <button class="more-button-3" onclick="window.location.href='https://www.netmatters.co.uk/telecoms-services';" value="telecom-services">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
+                                        <button class="more-button-3" onclick="window.location.href='#://www.netmatters.co.uk/telecoms-services';" value="telecom-services">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                                 <h2>BESPOKE SOFTWARE</h2>
                                     <p>Brnig your business together<br>
                                         with solutions that grow with you.</p>
-                                        <button class="more-button-4" onclick="window.location.href='https://www.netmatters.co.uk/bespoke-software';" value="bespoke-software">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
+                                        <button class="more-button-4" onclick="window.location.href='#://www.netmatters.co.uk/bespoke-software';" value="bespoke-software">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 <h2>DIGITAL MARKETING</h2>
                                     <p>Generating you new business through<br>
                                         results-driven marketing activity.</p>
-                                        <button class="more-button-5" onclick="window.location.href='https://www.netmatters.co.uk/digital-marketing';" value="digital-marketing">SEE HOW WE CAN HELP YOU<i class="fas fa-arrow-right"></i></button>
+                                        <button class="more-button-5" onclick="window.location.href='#://www.netmatters.co.uk/digital-marketing';" value="digital-marketing">SEE HOW WE CAN HELP YOU<i class="fas fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                                 <h2>CYBER SECURITY</h2>
                                     <p>Keeping businesses and their customers<br>
                                         sensitive information protected.</p>
-                                        <button class="more-button-6" onclick="window.location.href='https://www.netmatters.co.uk/cyber-security';" value="cyber-security">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
+                                        <button class="more-button-6" onclick="window.location.href='#://www.netmatters.co.uk/cyber-security';" value="cyber-security">FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -90,120 +90,198 @@
             <div class="middle">
                 <div class="container">
                     <section class="cards">
+
                         <div class="card1">
-                            <a class="services" href="https://www.netmatters.co.uk/bespoke-software">
-                                    <div class="card cardbs">  
-                                        <span class="icon">
-                                            <i class="fas1 fa-th fas fa-1x"></i>
-                                        </span>
+                            <a class="services" href="#://www.netmatters.co.uk/bespoke-software">
+                                <div class="card cardbs">  
+                                    <div class="container-c">
+                                        <div class="top-n">
+                                            <span class="icon">
+                                                <i class="fas1 fa-th fas fa-1x"></i>
+                                            </span>
+                                        </div>
                                             <div class="h2"><h2>Bespoke Software</h2>
                                             </div>
-                                                <div> <p>Tailored Software Solutions to improve
+                                                <div> 
+                                                    <p>Tailored Software Solutions to improve
                                                         business productivity and online profits. Our
-                                                        expert team will ensure a software solution.</p>
+                                                        expert team will ensure a software solution.
+                                                    </p>
                                                 </div>
-                                                    <span class="buttonc c1button">Read more</span>                                    
+                                                    <div>
+                                                        <span class="buttonc c1button">
+                                                            Read more
+                                                        </span>
+                                                    </div>                                    
                                     </div>
+                                </div>
                             </a>
                         </div>
 
                         <div class="card2">
-                            <a class="services" href="https://www.netmatters.co.uk/it-support">
+                            <a class="services" href="#://www.netmatters.co.uk/it-support">
                                 <div class="card cardis">
-                                        <span class="icon">
-                                            <i class="fas2 fa-tv fas fa-1x"></i>
-                                        </span>
-                                            <div class="h2"><h2>IT Support</h2>
+                                    <div class="container-c">
+                                        <div>
+                                            <span class="icon">
+                                                <i class="fas2 fa-tv fas fa-1x"></i>
+                                            </span>
+                                        </div>
+                                            <div class="h2">
+                                                <h2>IT Support</h2>
                                             </div>
-                                                <div> <p>Remotely managed IT sevices that is catered to your business
-                                                        needs, adds value and reduces costs.</p>
+                                                <div> 
+                                                    <p>Remotely managed IT sevices that is catered to your business
+                                                        needs, adds value and reduces costs.
+                                                    </p>
                                                 </div>
-                                                <span class="buttonc c2button">Read more</span>
+                                                    <div class="top-n">
+                                                        <span class="buttonc c2button">
+                                                            Read more
+                                                        </span>
+                                                    </div>
+                                    </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="card3">
-                            <a class="services" href="https://www.netmatters.co.uk/digital-marketing">
+                            <a class="services" href="#://www.netmatters.co.uk/digital-marketing">
                                 <div class="card carddm">
-                                    <span class="icon">
-                                        <i class="fas3 fa-signal fas fa-1x"></i>
-                                    </span>
-                                    <div class="h2"><h2>Digital Marketing</h2></div>
-                                    <div> <p>Driving brand awareness and ROI through creative digital
-                                                marketing campaigns. We review and monitor online
-                                                performances.</p></div>
-                                        <span class="buttonc c3button">Read more</span>
+                                    <div class="container-c">
+                                        <div>
+                                            <span class="icon">
+                                                <i class="fas3 fa-signal fas fa-1x"></i>
+                                            </span>
+                                        </div>
+                                        <div class="h2">
+                                            <h2>Digital Marketing</h2>
+                                        </div>
+                                        <div>
+                                            <p>Driving brand awareness and ROI through creative digital
+                                                    marketing campaigns. We review and monitor online
+                                                    performances.</p>
+                                        </div>
+                                            <div>
+                                                <span class="buttonc c3button">
+                                                    Read more
+                                                </span>
+                                            </div>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class="card4">
-                            <a class="services" href="https://www.netmatters.co.uk/telecoms-services">
+                            <a class="services" href="#://www.netmatters.co.uk/telecoms-services">
                                 <div class="card cardts">
+                                    <div class="container-c">
+                                        <div>
+                                            <span class="icon">
+                                                <i class="fas4 fa-phone-alt fas fa-1x"></i>
+                                            </span>
+                                        </div>
+                                        <div class="h2">
+                                            <h2>Telecom Services</h2>
+                                        </div>
+                                        <div> 
+                                            <p>Stay connected with bespoke telecoms solutions when you need it most.
 
-                                    <span class="icon">
-                                        <i class="fas4 fa-phone-alt fas fa-1x"></i>
-                                    </span>
-                                    <div class="h2"><h2>Telecom Services</h2></div>
-                                    <div> <p>Stay connected with bespoke telecoms solutions when you need it most.</p></div>
-                                        <span class="buttonc c4button">Read more</span>
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <span class="buttonc c4button">
+                                                Read more
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="card5">
-                            <a class="services" href="https://www.netmatters.co.uk/web-design">
+                            <a class="services" href="#://www.netmatters.co.uk/web-design">
                                 <div class="card cardwd">
-                                    <span class="icon">
-                                        <i class="fas5 fa-code fas fa-1x"></i>
-                                    </span>
-                                <div class="h2"><h2>Web Design</h2></div>
-                                    <div> <p>User-centric design for
-                                            businesses looking to make a
-                                            lasting first impression.</p>
+                                    <div class="container-c">
+                                        <div>
+                                            <span class="icon">
+                                                <i class="fas5 fa-code fas fa-1x"></i>
+                                            </span>
+                                        </div>                                        
+                                        <div class="h2">
+                                            <h2>Web Design</h2>
+                                        </div>
+                                            <div> <p>User-centric design for
+                                                    businesses looking to make a
+                                                    lasting first impression.</p>
+                                            </div>
+                                            <div>
+                                                <span class="buttonc c5button">
+                                                    Read more
+                                                </span>
+                                            </div>
                                     </div>
-                                        <span class="buttonc c5button">Read more</span>
                                 </div>
                             </a>
                         </div>
 
                         <div class="card6">
-                            <a class="services" href="https://www.netmatters.co.uk/cyber-security">
+                            <a class="services" href="#://www.netmatters.co.uk/cyber-security">
                                 <div class="card cardcs">
-                                    <span class="icon">
-                                        <i class="fas6 fa-shield-alt fas fa-1x"></i>
-                                    </span>
-                                    <div class="h2"><h2>Cyber Security</h2>
-                                    </div>
-                                    <div> <p>Ensuring your online business
+                                    <div class="container-c">
+                                        <div>
+                                            <span class="icon">
+                                                <i class="fas6 fa-shield-alt fas fa-1x"></i>
+                                            </span>
+                                        </div>
+                                        <div class="h2">
+                                            <h2>Cyber Security</h2>
+                                        </div>
+                                        <div> 
+                                            <p>Ensuring your online business
                                                 stays secure 24/7, 365 days of
-                                                the year.</p>
+                                                the year.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <span class="buttonc c6button">
+                                                Read more
+                                            </span>
+                                        </div>
                                     </div>
-                                            <span class="buttonc c6button">Read more</span>
                                 </div>
                             </a>
                         </div>
 
                         <div class="card7">
-                            <a class="services" href="https://www.netmatters.co.uk/scs-web-developer-course">
+                            <a class="services" href="#://www.netmatters.co.uk/scs-web-developer-course">
                                 <div class="card carddt">
-                                    <span class="icon">
-                                        <i class="fas7 fa-graduation-cap fas fa-1x"></i>
-                                    </span>
-                                        <div class="h2"><h2>Developer Training</h2>
+                                    <div class="container-c">
+                                        <div>
+                                            <span class="icon">
+                                                <i class="fas7 fa-graduation-cap fas fa-1x"></i>
+                                            </span>
                                         </div>
-                                        <div><p>Have you considered a career
-                                                    in web development but you
-                                                    aren't sure where to start.</p>
-                                        </div>
-                                                <span class="buttonc c7button">Read more</span>
+                                            <div class="h2">
+                                                <h2>Developer Training</h2>
+                                            </div>
+                                                <div>
+                                                    <p>Have you considered a career
+                                                        in web development but you
+                                                        aren't sure where to start.
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <span class="buttonc c7button">
+                                                        Read more
+                                                    </span>
+                                                </div>
+                                    </div>
                                 </div>
                             </a>
                         </div>
                     </section>
                 </div>
-
             </div>
 
             <!-- Bottom Content -->
@@ -229,7 +307,9 @@
             <div class="middle-bot">                
                 <div class="latest-articles">                
                     <div class="latest-row">
+                        <div class="container-l">
                         <h2>Latest</h2>
+               
                     </div>
                     
                         <div class="container">
@@ -252,11 +332,11 @@
 
                                     echo '
 
-                                    <div class="col-lg col-lg1">
+                                    <div class="col-lg ' . $row['class'] . '">
                                         
                                         <div class="item">
                                             <div class="img-container">
-                                                <a href="https://www.netmatters.co.uk/news/web-design" class="tool-tip_' . $row['theme'] . '" data-original-title="' . $row['tooltip'] .'">
+                                                <a href="#://www.netmatters.co.uk/news/web-design" class="tool-tip_' . $row['theme'] . '" data-original-title="' . $row['tooltip'] .'">
                                                         ' . $row['tag'] .'
                                                 </a>
                                                 <a class="img-bordered" href="' . $row['link'] . '">    
@@ -316,8 +396,8 @@
                             <div class="arrow"></div>
                         </div>
                     </div>
-                    <a href="https://www.netmatters.co.uk/new-website-developed-for-crane-garden-buildings"><img class="client-2" src="Imgs/Crane.png" alt="crane"></a>
-                    <a href="https://www.netmatters.co.uk/new-website-developed-for-crane-garden-buildings"><img class="client2" src="Imgs/Crane-ConvertImage.png" alt="crane"></a>
+                    <a href="#://www.netmatters.co.uk/new-website-developed-for-crane-garden-buildings"><img class="client-2" src="Imgs/Crane.png" alt="crane"></a>
+                    <a href="#://www.netmatters.co.uk/new-website-developed-for-crane-garden-buildings"><img class="client2" src="Imgs/Crane-ConvertImage.png" alt="crane"></a>
                     </div>
 
                     <div class="client">
@@ -342,8 +422,8 @@
                             <div class="arrow"></div>
                         </div>
                     </div>
-                    <a href="https://www.netmatters.co.uk/new-northern-diver-website-is-live"><img class="client-4" src="Imgs/Northen.png" alt="northern-diver"></a>
-                    <a href="https://www.netmatters.co.uk/new-northern-diver-website-is-live"><img class="client4" src="Imgs/Northen-ConvertImage.png" alt="northern-diver"></a>
+                    <a href="#://www.netmatters.co.uk/new-northern-diver-website-is-live"><img class="client-4" src="Imgs/Northen.png" alt="northern-diver"></a>
+                    <a href="#://www.netmatters.co.uk/new-northern-diver-website-is-live"><img class="client4" src="Imgs/Northen-ConvertImage.png" alt="northern-diver"></a>
                     </div>
                 </div>
             </div>
