@@ -119,6 +119,7 @@ $("#slider").slideReveal({
   push: true,
   overlay: true,
   width: 400,
+  speed: 1100
 });
 
 
@@ -136,6 +137,21 @@ $overlay.on("click", function(e) {
   $hamburger.toggleClass("is-active");
   page.toggleClass("fixed-position");
 });
+
+// newsletter scripts 
+
+// function checkFluency()
+// {
+//   var checkbox = document.getElementById('checkbox');
+//   if (checkbox.checked = true)
+//   {
+//     alert("you need to be fluent in English to apply for the job");
+//   }
+// }
+
+// $(".checkboxn").on('click', function (e) {
+//   checkFluency();
+// })
 
 // contact form scripts 
 

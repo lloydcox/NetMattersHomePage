@@ -189,6 +189,18 @@
     margin-right: 30px;
 }
 
+.news-boxes {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-name, .box-email {
+    width: 48%;
+}
+
+.tick-box {
+    width: 42px;
+}
 // .buttonc {
 //     margin-top: 20px;
 // }

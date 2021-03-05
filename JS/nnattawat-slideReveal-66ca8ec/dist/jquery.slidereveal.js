@@ -14,7 +14,7 @@
   var sidePosition = function($el) {
     var paddingLeft = getPadding($el, 'left');
     var paddingRight = getPadding($el, 'right');
-    return ($el.width() + paddingLeft + paddingRight) + "px";
+    return ($el.width() + paddingLeft + paddingRight) + "50px";
   };
 
   var SlideReveal = function($el, options) {

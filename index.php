@@ -429,5 +429,9 @@
             </div>
 
             <?php
+                include('includes/news_letter.php')
+            ?>
+
+            <?php
                 include('includes/footer.php');
             ?>

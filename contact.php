@@ -109,7 +109,7 @@ require('includes/connection.php');
                                 <input class="tick-box" type="checkbox" id ="check-box" value ="" required>
                                 <div class="label">
                                     <label class="tickbox-text" for="checkbox">	Please tick this box if you wish to receive marketing information from us. Please see our 
-                                    <a class="privacy-policy" href="https://www.netmatters.co.uk/privacy-policy">Privacy Policy</a> for more information on how we use your data</label>
+                                    <a class="privacy-policy" href="#">Privacy Policy</a> for more information on how we use your data</label>
                                 </div>
                             </div>    
 

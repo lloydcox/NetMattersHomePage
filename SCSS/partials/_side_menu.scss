@@ -15,10 +15,9 @@
   }
   .child {
     height: 100%;
+    width: 400px;
     margin-bottom: -50px; /* maximum width of scrollbar */
     padding-bottom: 50px; /* maximum width of scrollbar */
-    margin-right: -50px; /* maximum width of scrollbar */
-    padding-right: 50px; /* maximum width of scrollbar */
     overflow: scroll;
   }
 

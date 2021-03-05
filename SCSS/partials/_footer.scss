@@ -6,6 +6,89 @@
     display:none;
 }
 
+// news-letter 
+
+.news-letter {
+    background-color: $color-news;
+    color: $background-color-dark-grey;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.inner-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: auto;
+}
+
+.news-title {
+    display: flex;
+    h2 {
+        font-size: 32px;
+        text-align: start;
+        font-weight: 400;
+    }
+}
+
+.label-n {
+    text-align: start;
+    font-weight: 900;
+}
+
+.label-n:after {
+    content:" *";
+    color: red;
+  }
+.news-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    h3 {
+        text-align: start;
+    }
+}
+
+.box-name, .box-email {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.input {
+    height: 47px;
+    margin-top: 5px;
+}
+
+.consent {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.news-button {
+    margin-bottom: 50px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+// input[type=checkbox]:checked + .label:before {
+//     content: "\2713";
+//     color: #f3f3f3;
+//     text-align: center;
+//     line-height: 15px;
+//     background-color: $background-color-dark-grey;
+//     border-radius: 5px;
+//     padding: 8px;
+//     cursor: pointer;
+// }
+
+// input[type=checkbox]:checked {
+//     display: none;
+// }
+
 /* -------- footer -------- */
 .footer {
     padding-top: 20px;

@@ -11,7 +11,7 @@ try {
   $sqli = "CREATE DATABASE myDBPDO";
   // use exec() because no results are returned
 
-  echo "Database created successfully<br>";
+  // echo "Database created successfully<br>";
 } catch(PDOException $e) {
   echo $sqli . "<br>" . $e->getMessage();
 }

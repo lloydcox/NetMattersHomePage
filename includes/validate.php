@@ -3,6 +3,7 @@
                                 // define variables and set to empty values
                                 $nameErr = $emailErr = $phoneErr = $subjectErr = $messageErr = "";
                                 $name = $email = $phone = $subject = $message = "";
+                                $marketing = false;
 
                                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     function test_input($data) {
@@ -64,33 +65,4 @@
                                     $message = test_input($_POST["message"]);
                                 }
                              
-                                }
-
-    // if(!$_POST) return "No post request found";
-    // $fields = ["name","email","phone",...]; //etc
-    // //this way 
-    // $validate = ["email"=>["email"], "phone"=>["phone"]]
-    // //or simpler
-    // $validate['email'] = ['email'];
-    // $validate['phone'] = ['phone'];
-    // $validation['email'] = "/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix";
-    // $validation['phone'] = "/^((\\(?0\\d{4}\\)?\\s?\\d{3}\\s?\\d{3})|(\\(?0\\d{3}\\)?\\s?\\d{3}\\s?\\d{4})|(\\(?0\\d{2}\\)?\\s?\\d{4}\\s?\\d{4}))(\\s?\\#(\\d{4}|\\d{3}))?$/";
-
-    // $errors = [];
-    // foreach($fields as $field){
-    //     if(empty($_POST[$field])){
-    //         $errors[] = $field . " is not set."
-    //     }
-    //     foreach($validate as $k=>$v){
-    //         if(in_array($v, $field)){
-    //             if (!preg_match($validation[$k], $field)) {
-    //                 $errors[] = "Invalid " . $field . " format";
-    //                 unset($email);
-    //             } 
-    //         }
-    //     }
-    // }
-    // if(count($errors)){
-    //     $report = implode($errors, '/n');
-    //     return $report; //or throw exception with report
-    // }
+                                } 
